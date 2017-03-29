@@ -3,11 +3,11 @@
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
+    QCoreApplication app(argc, argv);
     Server server;
     if (!server.init()) {
         return 1;
     }
 
-    return a.exec();
+    return app.exec();
 }

@@ -29,15 +29,15 @@ void Server::tcpNewConnection()
     while(myTcpServer -> hasPendingConnections())
     {
         QTcpSocket *tcp = myTcpServer->nextPendingConnection();
-        qInfo().noquote() << tcpAddr(tcp);
+        qInfo().noquote() <<"tcpNewConnection: "<< tcpAddr(tcp);
         tcpinit(tcp);
         Link *link = new Link;
         link->tcp = tcp;
         link->peer = new Link;
-        link->peer->peer = link;
         link->peer->tcp = new QTcpSocket(this);
         tcpinit(link->peer->tcp);
-        link->peer->tcp->connectToHost("172.16.97.129", 2723);
+        link->peer->tcp->connectToHost("192.168.92.131", 1723);
+        link->peer->peer = link;
         mLinkHash.insert(tcp,link);
         mLinkHash.insert(link->peer->tcp,link->peer);
     }
@@ -59,10 +59,10 @@ void Server::tcpsend(Link *link)
     if(QAbstractSocket::ConnectedState == link->tcp->state())
     {
         qint64 send = link->tcp->write(link->dataTx);
-        if(send > 0)
+        if(0 < send)
         {
             link ->dataTx.remove(0,send);
-            qDebug().noquote() << tcpAddr(link->tcp) << "tx" << link->dataTx.size();
+            qDebug().noquote() <<"tcpSend: "<< tcpAddr(link->tcp) << "tx" << link->dataTx.size();
         }
     }
 }
@@ -70,25 +70,28 @@ void Server::tcpsend(Link *link)
 void Server::tcpConnected()
 {
     QTcpSocket *tcp = qobject_cast<QTcpSocket*>(sender());
-    qWarning().noquote() << tcpAddr(tcp);
+    qWarning().noquote()  <<"tcpConnected: " << tcpAddr(tcp);
+    LinkHash::iterator itr = mLinkHash.find(tcp);
+    Link *link = itr.value();
+    tcpsend(link);
 }
 
 void Server::tcpDisconnected()
 {
     QTcpSocket *tcp = qobject_cast<QTcpSocket*>(sender());
-    qWarning().noquote() << tcpAddr(tcp);
+    qWarning().noquote() <<"tcpDisconnected:　" << tcpAddr(tcp);
 
 }
 void Server::tcpError(QAbstractSocket::SocketError error)
 {
     QTcpSocket *tcp = qobject_cast<QTcpSocket*>(sender());
-    qDebug().noquote() << tcpAddr(tcp) << error;
+    qDebug().noquote()  <<"tcpError: " << tcpAddr(tcp) << error;
 }
 
 void Server::tcpStateChanged(QAbstractSocket::SocketState state)
 {
     QTcpSocket *tcp = qobject_cast<QTcpSocket*>(sender());
-    qDebug().noquote() << tcpAddr(tcp) << state;
+    qDebug().noquote() <<"tcpStateChanged: " << tcpAddr(tcp) << state;
 
     if(QAbstractSocket::UnconnectedState != state)
     {
@@ -96,22 +99,25 @@ void Server::tcpStateChanged(QAbstractSocket::SocketState state)
     }
     LinkHash::iterator itr = mLinkHash.find(tcp);
     Link *link = itr.value();
-
+    mLinkHash.erase(itr);
     if(Link *peer = link->peer)
     {
-        LinkHash::iterator itr_next = mLinkHash.find(link ->peer->tcp);
-        mLinkHash.erase(itr_next);
+        if(! peer-> tcp)
+        {
+            LinkHash::iterator itr_next = mLinkHash.find(peer->tcp);
+            mLinkHash.erase(itr_next);
+        }
         peer->peer = NULL;
         peer -> tcp ->abort();
     }
-    mLinkHash.erase(itr);
+
     delete link;
 }
 
 void Server::tcpBytesWeitten(qint64 bytes)
 {
     QTcpSocket *tcp = qobject_cast<QTcpSocket*>(sender());
-    qDebug().noquote() << tcpAddr(tcp) << "bytes" << bytes;
+    qDebug().noquote() <<"BytesWritten: "<< tcpAddr(tcp) << "bytes" << bytes;
     LinkHash::iterator itr = mLinkHash.find(tcp);
     Link *link = itr.value();
     tcpsend(link);
@@ -123,7 +129,7 @@ void Server::tcpReadyRead()
     QTcpSocket *tcp = qobject_cast<QTcpSocket*>(sender());
     LinkHash::iterator itr = mLinkHash.find(tcp);
     Link* link = itr.value();
-    link->peer->dataRx.append(link->tcp->readAll());
-    qDebug().noquote() << tcpAddr(link->peer->tcp) << "tx" << link->peer->dataTx.size();
+    link->peer->dataTx.append(link->tcp->readAll()); //中继点不处理所以放到TX
+    qDebug().noquote() <<"tcpReadyRead: " << tcpAddr(link->peer->tcp) << "tx" << link->peer->dataTx.size();
     tcpsend(link->peer);
 }
