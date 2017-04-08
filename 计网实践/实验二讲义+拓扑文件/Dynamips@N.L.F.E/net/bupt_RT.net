@@ -18,6 +18,7 @@ workingdir = ..\tmp\
     slot1 = PA-4T
     f0/0 = PC1 f0/0
     s1/1 = R2 s1/0
+    s1/0 = R3 s1/1
 
 
     [[router R2]]
@@ -32,6 +33,37 @@ workingdir = ..\tmp\
     slot0 = PA-C7200-IO-FE
     slot1 = PA-4T
     f0/0 = PC2 f0/0
+   
+
+    [[router R3]]
+    image = ..\ios\unzip-c7200-is-mz.122-37.bin
+    model = 7200
+    console = 3003
+    npe = npe-400
+    ram = 64
+    confreg = 0x2102
+    exec_area = 64
+    mmap = false
+    slot0 = PA-C7200-IO-FE
+    slot1 = PA-4T
+    f0/0 = PC3 f0/0
+    
+
+
+    [[router R4]]
+    image = ..\ios\unzip-c7200-is-mz.122-37.bin
+    model = 7200
+    console = 3004
+    npe = npe-400
+    ram = 64
+    confreg = 0x2102
+    exec_area = 64
+    mmap = false
+    slot0 = PA-C7200-IO-FE
+    slot1 = PA-4T
+    f0/0 = PC4 f0/0
+    s1/1 = R3 s1/0
+    s1/0 = R2 s1/1
 
     
     [[router PC1]]
@@ -40,7 +72,7 @@ workingdir = ..\tmp\
 	image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
 	mmap = False
 	confreg = 0x2102
-	console = 3003
+	console = 3005
     
     [[router PC2]]
 	model = 2621
@@ -48,7 +80,21 @@ workingdir = ..\tmp\
 	image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
 	mmap = False
 	confreg = 0x2102
-	console = 3004
+	console = 3006
 
+    [[router PC3]]
+	model = 2621
+	ram = 20
+	image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
+	mmap = False
+	confreg = 0x2102
+	console = 3007
 
-    
+    [[router PC4]]
+	model = 2621
+	ram = 20
+	image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
+	mmap = False
+	confreg = 0x2102
+	console = 3008
+
