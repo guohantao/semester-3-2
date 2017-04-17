@@ -1,0 +1,104 @@
+autostart = False
+
+[localhost]
+    port = 7200
+    udp = 10000
+    workingdir = ..\tmp\
+    
+    [[router R1]]
+        image = ..\ios\unzip-c2691-advsecurityk9-mz.124-11.T2.bin
+        model = 2691
+        console = 3001
+        ram = 100
+        confreg = 0x2142
+        exec_area = 64
+        mmap = False
+        slot1 = NM-4T
+        f0/0 = SW1 f1/5
+        s1/0 = R2 s1/0
+    
+    [[router R2]]
+        image = ..\ios\unzip-c2691-advsecurityk9-mz.124-11.T2.bin
+        model = 2691
+        console = 3002
+        ram = 100
+        confreg = 0x2142
+        exec_area = 64
+        mmap = False
+        slot1 = NM-4T
+        f0/0 = SW2 f1/5
+    
+    [[router SW1]]
+        image = ..\ios\unzip-c3640-js-mz.124-10.bin
+        model = 3640
+        console = 3003
+        ram = 128
+        confreg = 0x2142
+        exec_area = 64
+        mmap = False
+        slot1 = NM-16ESW
+        f1/1 = SW2 f1/2
+        f1/2 = SW2 f1/1
+        f1/3 = SW3 f1/1
+        f1/11 = PC1 f0/0
+        f1/12 = PC2 f0/0
+    
+    [[router SW2]]
+        image = ..\ios\unzip-c3640-js-mz.124-10.bin
+        model = 3640
+        console = 3004
+        ram = 128
+        confreg = 0x2142
+        exec_area = 64
+        mmap = False
+        slot1 = NM-16ESW
+        f1/3 = SW3 f1/2
+        f1/11 = PC3 f0/0
+    
+    [[router SW3]]
+        image = ..\ios\unzip-c3640-js-mz.124-10.bin
+        model = 3640
+        console = 3005
+        ram = 128
+        confreg = 0x2142
+        exec_area = 64
+        mmap = False
+        slot1 = NM-16ESW
+        f1/11 = PC4 f0/0
+        f1/12 = S1 1
+    
+    [[router PC1]]
+	model = 2621
+	ram = 20
+	image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
+	mmap = False
+	confreg = 0x2142
+	console = 3006
+    
+    [[router PC2]]
+	model = 2621
+	ram = 20
+	image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
+	mmap = False
+	confreg = 0x2142
+	console = 3007
+
+    [[router PC3]]
+	model = 2621
+	ram = 20
+	image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
+	mmap = False
+	confreg = 0x2142
+	console = 3008
+
+    [[router PC4]]
+	model = 2621
+	ram = 20
+	image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
+	mmap = False
+	confreg = 0x2142
+	console = 3009
+    
+    [[ethsw S1]]
+	1 = dot1q 1
+        2 = access 1 NIO_gen_eth:\Device\NPF_{5B7EC207-0F8F-4E4A-B1DB-8567F7AF8DF5}

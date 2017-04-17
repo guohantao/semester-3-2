@@ -1,0 +1,73 @@
+autostart = false
+
+[localhost]
+port = 7200
+udp = 10000
+workingdir = ..\tmp\
+
+    [[router R1]]
+    image = ..\ios\unzip-c7200-is-mz.122-37.bin
+    model = 7200
+    console = 3001
+    npe = npe-400
+    ram = 64
+    confreg = 0x2142
+    exec_area = 64
+    mmap = false
+    slot0 = PA-C7200-IO-FE
+    slot1 = PA-4T
+    slot2 = PA-4T
+    f0/0 = SW1 1
+    s1/1 = R2 s1/0
+    s1/2 = R4 s1/1
+
+    [[router R2]]
+    image = ..\ios\unzip-c7200-is-mz.122-37.bin
+    model = 7200
+    console = 3002
+    npe = npe-400
+    ram = 64
+    confreg = 0x2142
+    exec_area = 64
+    mmap = false  
+    slot0 = PA-C7200-IO-FE
+    slot1 = PA-4T
+    slot2 = PA-4T
+    f0/0 = SW1 2
+    s1/1 = R3 S1/0
+    s1/2 = R4 s1/2
+
+    [[router R3]]
+    image = ..\ios\unzip-c7200-is-mz.122-37.bin
+    model = 7200
+    console = 3003
+    npe = npe-400
+    ram = 64
+    confreg = 0x2142
+    exec_area = 64
+    mmap = false
+    slot0 = PA-C7200-IO-FE
+    slot1 = PA-4T
+    slot2 = PA-4T
+    f0/0 = SW1 3
+    s1/2 = R4 s1/3
+
+    [[router R4]]
+    image = ..\ios\unzip-c7200-is-mz.122-37.bin
+    model = 7200
+    console = 3004
+    npe = npe-400
+    ram = 64
+    confreg = 0x2142
+    exec_area = 64
+    mmap = false
+    slot0 = PA-C7200-IO-FE
+    slot1 = PA-4T
+    f0/0 = SW1 4
+
+    [[ethsw SW1]]
+    1 = dot1q 1
+    2 = dot1q 1
+    3 = dot1q 1
+    4 = dot1q 1
+    5 = access 1 NIO_gen_eth:\Device\NPF_{5B7EC207-0F8F-4E4A-B1DB-8567F7AF8DF5}

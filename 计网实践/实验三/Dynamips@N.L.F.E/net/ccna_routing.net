@@ -1,0 +1,53 @@
+autostart = False
+
+[localhost]
+port = 7200
+udp = 10000
+workingdir = ..\tmp\
+
+[[2621]]
+ram = 20
+image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
+slot1 = NM-16ESW
+mmap = False
+confreg = 0x2142
+
+[[2621XM]]
+ram = 26
+image = ..\ios\unzip-c2600-i-mz.121-3.T.bin
+mmap = False
+confreg = 0x2142
+slot1 = NM-4E
+
+	[[ROUTER R1]]
+	model = 2621
+	console = 3001
+	f0/1 = R2 e1/0
+	f0/0 = R5 e1/0
+
+	[[ROUTER R2]]
+	model = 2621XM
+	console = 3002
+	e1/2 = R5 e1/1
+	e1/1 = R3 e1/0
+	e1/3 = R4 f0/1
+
+	[[ROUTER R3]]
+	model = 2621XM
+	console = 3003
+	e1/1 = R4 f0/0
+	e1/2 = R5 e1/2
+
+	[[ROUTER R4]]
+	model = 2621
+	console = 3004
+
+	[[ROUTER R5]]
+	model = 2621XM
+	console = 3005
+	e1/3 = SW1 1
+
+	[[ethsw SW1]]
+	1 = dot1q 1
+	2 = access 1 NIO_gen_eth:\Device\NPF_{5B7EC207-0F8F-4E4A-B1DB-8567F7AF8DF5}
+

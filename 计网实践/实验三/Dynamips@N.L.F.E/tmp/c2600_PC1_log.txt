@@ -1,0 +1,316 @@
+Apr 17 17:37:14.728 VTTY: Console port: waiting connection on tcp port 3011 (FD 97)
+Apr 17 17:37:16.117 C2600_BOOT: starting instance (CPU0 PC=0xfff00100,idle_pc=0x803553bc,JIT on)
+Apr 17 17:37:16.118 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Apr 17 17:37:16.311 ROM: Microcode has started.
+Apr 17 17:37:16.333 CPU0: IO_FPGA: read from unknown addr 0x18, pc=0x800a9e1c (size=1)
+Apr 17 17:37:16.333 CPU0: MPC860: read from unknown addr 0xabc, pc=0x800a9e34 (size=4)
+Apr 17 17:37:16.333 CPU0: MPC860: read from unknown addr 0xab8, pc=0x800a9e40 (size=4)
+Apr 17 17:37:16.333 CPU0: MPC860: read from unknown addr 0xac2, pc=0x800a9e4c (size=2)
+Apr 17 17:37:16.333 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a9e58 (size=4)
+Apr 17 17:37:16.333 CPU0: MPC860: write to addr 0xabc, value=0x0, pc=0x800a9e6c (size=4)
+Apr 17 17:37:16.333 CPU0: MPC860: write to addr 0xac2, value=0x0, pc=0x800a9e74 (size=2)
+Apr 17 17:37:16.333 CPU0: MPC860: write to addr 0xab8, value=0x30006, pc=0x800a9e88 (size=4)
+Apr 17 17:37:16.333 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a9e90 (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.334 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.335 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: write to addr 0xac4, value=0x4, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.336 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.337 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.338 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.339 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.340 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.340 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.340 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.340 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.340 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.340 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.340 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.340 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.341 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.342 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.343 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.347 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.347 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.347 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.347 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.347 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.348 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: write to addr 0xac4, value=0x20000, pc=0x800a8e08 (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a9ed0 (size=4)
+Apr 17 17:37:16.349 CPU0: MPC860: write to addr 0xac4, value=0x20000, pc=0x800a9ed8 (size=4)
+Apr 17 17:37:16.349 CPU0: IO_FPGA: write to unknown addr 0x18, value=0x0, pc=0x800a9f20 (size=1)
+Apr 17 17:37:16.349 CPU0: MPC860: write to addr 0xabc, value=0x0, pc=0x800a9f40 (size=4)
+Apr 17 17:37:16.350 CPU0: MPC860: write to addr 0xab8, value=0x0, pc=0x800a9f4c (size=4)
+Apr 17 17:37:16.350 CPU0: MPC860: write to addr 0xac2, value=0x0, pc=0x800a9f58 (size=2)
+Apr 17 17:37:16.350 CPU0: MPC860: write to addr 0xac4, value=0x20000, pc=0x800a9f64 (size=4)
+Apr 17 17:37:16.394 CPU0: MPC860: write to addr 0x18, value=0xffff, pc=0x803767a4 (size=4)
+Apr 17 17:37:16.395 CPU0: MPC860: write to addr 0x244, value=0x1790000, pc=0x80352054 (size=4)
+Apr 17 17:37:16.396 CPU0: MTS: read  access to undefined address 0x6800f000 at ia=0x803845dc (size=4)
+Apr 17 17:37:16.396 CPU0: c2600_pci: write to addr 0x4, value=0x2800147, pc=0x80383d00
+Apr 17 17:37:16.396 CPU0: c2600_pci: write to addr 0xc, value=0xf808, pc=0x80383d14
+Apr 17 17:37:16.396 CPU0: c2600_pci: write to addr 0x10, value=0x1000000, pc=0x80383d24
+Apr 17 17:37:16.396 CPU0: c2600_pci: write to addr 0x14, value=0x1fff001, pc=0x80383d38
+Apr 17 17:37:16.396 CPU0: c2600_pci: write to addr 0x800, value=0xd0003, pc=0x80383d4c
+Apr 17 17:37:16.396 CPU0: c2600_pci: write to addr 0x100, value=0x8a000080, pc=0x80383d60
+Apr 17 17:37:16.396 CPU0: c2600_pci: write to addr 0x104, value=0x0, pc=0x80383d70
+Apr 17 17:37:16.397 CPU0: c2600_pci: write to addr 0x110, value=0x0, pc=0x80383d7c
+Apr 17 17:37:16.397 CPU0: c2600_pci: write to addr 0x604, value=0x0, pc=0x80383d88
+Apr 17 17:37:16.397 CPU0: c2600_pci: write to addr 0x608, value=0x0, pc=0x80383d94
+Apr 17 17:37:16.397 CPU0: c2600_pci: write to addr 0xf00, value=0x80000000, pc=0x80383da4
+Apr 17 17:37:16.397 CPU0: c2600_pci: write to addr 0xf04, value=0xf1, pc=0x80383db4
+Apr 17 17:37:16.397 CPU0: c2600_pci: write to addr 0xf10, value=0x80000000, pc=0x80383dc0
+Apr 17 17:37:16.397 CPU0: c2600_pci: write to addr 0xf14, value=0xf1, pc=0x80383dcc
+Apr 17 17:37:16.397 CPU0: c2600_pci: write to addr 0xf80, value=0x81000000, pc=0x80383ddc
+Apr 17 17:37:16.401 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c70 (size=4)
+Apr 17 17:37:16.401 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c78 (size=4)
+Apr 17 17:37:16.401 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c7c (size=4)
+Apr 17 17:37:16.401 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c84 (size=4)
+Apr 17 17:37:16.401 ROM: unhandled syscall 0x0000003e at pc=0x00000000 (a1=0x00000000,a2=0x00000000,a3=0x00000000)
+Apr 17 17:37:16.401 CPU0: NS16552: write to addr 0x3, value=0x7, pc=0x8037a4a8 (size=1)
+Apr 17 17:37:16.401 CPU0: NS16552: write to addr 0x4, value=0x3, pc=0x8037a4d4 (size=1)
+Apr 17 17:37:16.401 ROM: unhandled syscall 0x00000047 at pc=0x00000000 (a1=0x00000c44,a2=0x00000000,a3=0x00000002)
+Apr 17 17:37:16.525 CPU0: MPC860: write to addr 0x980, value=0x0, pc=0x80380420 (size=2)
+Apr 17 17:37:16.527 ROM: trying to read bootvar 'BOOT'
+Apr 17 17:37:16.528 ROM: trying to read bootvar 'CONFIG_FILE'
+Apr 17 17:37:16.528 ROM: trying to read bootvar 'BOOTLDR'
+Apr 17 17:37:16.529 ROM: trying to read bootvar 'RSHELF'
+Apr 17 17:37:16.529 ROM: trying to read bootvar 'DSHELF'
+Apr 17 17:37:16.529 ROM: trying to read bootvar 'DSHELFINFO'
+Apr 17 17:37:16.529 ROM: trying to read bootvar 'RESET_COUNTER'
+Apr 17 17:37:16.529 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Apr 17 17:37:16.562 CPU0: MPC860: read from unknown addr 0x0, pc=0x80374664 (size=4)
+Apr 17 17:37:16.562 CPU0: MPC860: write to addr 0x0, value=0x0, pc=0x8037466c (size=4)
+Apr 17 17:37:16.562 CPU0: MPC860: write to addr 0x30, value=0x0, pc=0x80374674 (size=4)
+Apr 17 17:37:16.562 CPU0: MPC860: write to addr 0x940, value=0x7f00, pc=0x8037467c (size=4)
+Apr 17 17:37:16.562 CPU0: MPC860: read from unknown addr 0x940, pc=0x80374680 (size=4)
+Apr 17 17:37:16.562 CPU0: MPC860: write to addr 0x940, value=0x360000, pc=0x80374688 (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c70 (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c78 (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c7c (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c84 (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: read from unknown addr 0x940, pc=0x803746cc (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: write to addr 0x940, value=0x80, pc=0x803746d4 (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c70 (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c78 (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c7c (size=4)
+Apr 17 17:37:16.563 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c84 (size=4)
+Apr 17 17:37:16.628 CPU0: MPC860: read from unknown addr 0x9c0, pc=0x803777e8 (size=2)
+Apr 17 17:37:16.742 CPU0: MPC860: write to addr 0x9c0, value=0x511, pc=0x803777f4 (size=2)
+Apr 17 17:37:16.742 CPU0: MPC860: read from unknown addr 0x9c4, pc=0x8037dda0 (size=2)
+Apr 17 17:37:16.742 CPU0: MPC860: write to addr 0x9c4, value=0x0, pc=0x8037dda8 (size=2)
+Apr 17 17:37:16.742 CPU0: MPC860: read from unknown addr 0x9c4, pc=0x8037ddac (size=2)
+Apr 17 17:37:16.742 CPU0: MPC860: write to addr 0x9c4, value=0x60, pc=0x8037ddb4 (size=2)
+Apr 17 17:37:16.753 CPU0: flash0: default write case at offset=0x0000000, val=0xc3c3c3c3
+Apr 17 17:37:16.773 CPU0: PCI: read request at pc=0x80383f10: bus=0,device=0,function=0,reg=0x00
+Apr 17 17:37:16.773 CPU0: PCI: write request (data=0x40000000) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x14
+Apr 17 17:37:16.773 CISCO2600-MB-2FE(0): registers are mapped at 0x40000000
+Apr 17 17:37:16.773 CPU0: PCI: write request (data=0x00000006) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x04
+Apr 17 17:37:16.773 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x0c
+Apr 17 17:37:16.774 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x0c
+Apr 17 17:37:16.788 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 17 17:37:16.788 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 17 17:37:16.788 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 17 17:37:16.788 CPU0: PCI: read request at pc=0x80383f10: bus=0,device=1,function=0,reg=0x00
+Apr 17 17:37:16.788 CPU0: PCI: write request (data=0x40100000) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x14
+Apr 17 17:37:16.789 CISCO2600-MB-2FE(0): registers are mapped at 0x40100000
+Apr 17 17:37:16.789 CPU0: PCI: write request (data=0x00000006) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x04
+Apr 17 17:37:16.789 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x0c
+Apr 17 17:37:16.789 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x0c
+Apr 17 17:37:16.793 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
+Apr 17 17:37:16.793 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
+Apr 17 17:37:16.793 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 17 17:37:16.801 CPU0: JIT: partial JIT flush (count=210)
+Apr 17 17:37:16.841 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 17 17:37:16.842 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 17 17:37:16.842 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 17 17:37:16.842 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
+Apr 17 17:37:16.842 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
+Apr 17 17:37:16.842 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 17 17:37:16.958 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 17 17:37:16.958 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 17 17:37:16.958 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 17 17:37:16.958 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
+Apr 17 17:37:16.958 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
+Apr 17 17:37:16.958 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 17 17:37:17.002 CPU0: JIT: flushing data structures (compiled pages=272)
+Apr 17 17:37:17.207 CPU0: JIT: partial JIT flush (count=248)
+Apr 17 17:37:17.914 CPU0: NS16552: read from addr 0xb, pc=0x8037a378 (size=1)
+Apr 17 17:37:17.914 CPU0: NS16552: write to addr 0xb, value=0x80, pc=0x8037a380 (size=1)
+Apr 17 17:37:17.914 CPU0: NS16552: write to addr 0xb, value=0x0, pc=0x8037a390 (size=1)
+Apr 17 17:37:17.914 CPU0: NS16552: write to addr 0xb, value=0x7, pc=0x8037a4a8 (size=1)
+Apr 17 17:37:17.914 CPU0: NS16552: write to addr 0xc, value=0x3, pc=0x8037a4d4 (size=1)
+Apr 17 17:37:17.916 ROM: unhandled syscall 0x0000001a at pc=0x00000000 (a1=0x00000000,a2=0x809e68ec,a3=0x00000000)
+Apr 17 17:37:17.916 ROM: unhandled syscall 0x00000009 at pc=0x00000000 (a1=0x00000c44,a2=0x00000000,a3=0x00000002)
+Apr 17 17:37:17.982 CPU0: JIT: flushing data structures (compiled pages=277)
+Apr 17 17:37:18.131 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 17 17:37:18.132 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 17 17:37:18.132 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 17 17:37:18.166 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
+Apr 17 17:37:18.166 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
+Apr 17 17:37:18.166 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 17 17:37:18.242 CPU0: JIT: partial JIT flush (count=225)
+Apr 17 17:37:18.333 MPC860: activating IDMA0
+Apr 17 17:37:18.333 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01199aa0, dst_bp=0x012b5a2a len=60
+Apr 17 17:37:18.334 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 17 17:37:18.347 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 17 17:37:18.347 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 17 17:37:18.347 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 17 17:37:19.918 MPC860: activating IDMA0
+Apr 17 17:37:19.918 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x012b58ea len=60
+Apr 17 17:37:19.918 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 17 17:37:20.149 CPU0: JIT: flushing data structures (compiled pages=272)
+Apr 17 17:37:20.149 MPC860: activating IDMA0
+Apr 17 17:37:20.149 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119a120, dst_bp=0x012b74aa len=166
+Apr 17 17:37:20.165 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 17 17:37:20.165 MPC860: activating IDMA0
+Apr 17 17:37:20.165 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119a7a0, dst_bp=0x012b58ea len=60
+Apr 17 17:37:20.165 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 17 17:37:23.951 MPC860: activating IDMA0
+Apr 17 17:37:23.951 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119ae20, dst_bp=0x012b716a len=146
+Apr 17 17:37:23.951 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 17 17:37:23.951 MPC860: activating IDMA0
+Apr 17 17:37:23.951 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119b4a0, dst_bp=0x012b6e2a len=146
+Apr 17 17:37:23.951 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 17 17:37:26.021 MPC860: activating IDMA0
+Apr 17 17:37:26.021 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119bb20, dst_bp=0x012b6e2a len=286
+Apr 17 17:37:26.021 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 17 17:37:26.021 MPC860: activating IDMA0
+Apr 17 17:37:26.021 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119c1a0, dst_bp=0x012b6e2a len=286
+Apr 17 17:37:26.021 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 17 17:37:27.968 MPC860: activating IDMA0
+Apr 17 17:37:27.968 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119c820, dst_bp=0x012b58ea len=66
+Apr 17 17:37:27.968 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 17 17:37:27.968 MPC860: activating IDMA0
+Apr 17 17:37:27.968 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119cea0, dst_bp=0x012b5caa len=66
+Apr 17 17:37:27.968 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
