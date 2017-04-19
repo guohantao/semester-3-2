@@ -8,4 +8,4 @@ where student.student_id = student_course.student_id and
 	  course.book_id = book.[book_id ] and
 	  student_course.course_id = teacher_course_class.course_id and
 	  department.department_id = class.department_id and
-	  student_course.school_year = teacher_course_class.school_year
+	  student_course.school_year = teacher_course_class.school_year  --Ìí¼Óschool_yearÏŞÖÆ

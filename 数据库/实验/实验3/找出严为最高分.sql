@@ -15,7 +15,7 @@ where student.student_id = student_course.student_id and
 max_grade (grade) as (select max(grade)   --从选了这堂课的学生中，找出最高分
 		   from student_select_this_class)
 
-select student_id , student_name , class_id, student_select_this_class.grade
+select student_id , student_name , class_id, student_select_this_class.grade --选出成绩等于最高分的学生
 from student_select_this_class,max_grade
 where student_select_this_class.grade = max_grade.grade
 					  
