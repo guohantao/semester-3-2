@@ -1,1378 +1,949 @@
-Apr 19 09:31:08.493 VTTY: Console port: waiting connection on tcp port 3016 (FD 93)
-Apr 19 09:31:08.989 C2600_BOOT: starting instance (CPU0 PC=0xfff00100,idle_pc=0x803553bc,JIT on)
-Apr 19 09:31:08.989 CPU0: CPU_STATE: Starting CPU (old state=2)...
-Apr 19 09:31:09.187 ROM: Microcode has started.
-Apr 19 09:31:09.215 CPU0: IO_FPGA: read from unknown addr 0x18, pc=0x800a9e1c (size=1)
-Apr 19 09:31:09.215 CPU0: MPC860: read from unknown addr 0xabc, pc=0x800a9e34 (size=4)
-Apr 19 09:31:09.215 CPU0: MPC860: read from unknown addr 0xab8, pc=0x800a9e40 (size=4)
-Apr 19 09:31:09.215 CPU0: MPC860: read from unknown addr 0xac2, pc=0x800a9e4c (size=2)
-Apr 19 09:31:09.215 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a9e58 (size=4)
-Apr 19 09:31:09.215 CPU0: MPC860: write to addr 0xabc, value=0x0, pc=0x800a9e6c (size=4)
-Apr 19 09:31:09.215 CPU0: MPC860: write to addr 0xac2, value=0x0, pc=0x800a9e74 (size=2)
-Apr 19 09:31:09.215 CPU0: MPC860: write to addr 0xab8, value=0x30006, pc=0x800a9e88 (size=4)
-Apr 19 09:31:09.215 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a9e90 (size=4)
-Apr 19 09:31:09.216 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.216 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.216 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.216 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.216 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.217 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.218 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: write to addr 0xac4, value=0x4, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.219 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.220 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.221 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.222 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.222 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.222 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.222 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.222 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.222 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.223 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.224 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.225 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.259 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.259 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.259 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.259 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.259 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.260 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
-Apr 19 09:31:09.261 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.262 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.263 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.263 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
-Apr 19 09:31:09.263 CPU0: MPC860: write to addr 0xac4, value=0x20000, pc=0x800a8e08 (size=4)
-Apr 19 09:31:09.263 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a9ed0 (size=4)
-Apr 19 09:31:09.263 CPU0: MPC860: write to addr 0xac4, value=0x20000, pc=0x800a9ed8 (size=4)
-Apr 19 09:31:09.263 CPU0: IO_FPGA: write to unknown addr 0x18, value=0x0, pc=0x800a9f20 (size=1)
-Apr 19 09:31:09.263 CPU0: MPC860: write to addr 0xabc, value=0x0, pc=0x800a9f40 (size=4)
-Apr 19 09:31:09.263 CPU0: MPC860: write to addr 0xab8, value=0x0, pc=0x800a9f4c (size=4)
-Apr 19 09:31:09.263 CPU0: MPC860: write to addr 0xac2, value=0x0, pc=0x800a9f58 (size=2)
-Apr 19 09:31:09.263 CPU0: MPC860: write to addr 0xac4, value=0x20000, pc=0x800a9f64 (size=4)
-Apr 19 09:31:09.349 CPU0: MPC860: write to addr 0x18, value=0xffff, pc=0x803767a4 (size=4)
-Apr 19 09:31:09.350 CPU0: MPC860: write to addr 0x244, value=0x1790000, pc=0x80352054 (size=4)
-Apr 19 09:31:09.351 CPU0: MTS: read  access to undefined address 0x6800f000 at ia=0x803845dc (size=4)
-Apr 19 09:31:09.351 CPU0: c2600_pci: write to addr 0x4, value=0x2800147, pc=0x80383d00
-Apr 19 09:31:09.351 CPU0: c2600_pci: write to addr 0xc, value=0xf808, pc=0x80383d14
-Apr 19 09:31:09.351 CPU0: c2600_pci: write to addr 0x10, value=0x1000000, pc=0x80383d24
-Apr 19 09:31:09.351 CPU0: c2600_pci: write to addr 0x14, value=0x1fff001, pc=0x80383d38
-Apr 19 09:31:09.352 CPU0: c2600_pci: write to addr 0x800, value=0xd0003, pc=0x80383d4c
-Apr 19 09:31:09.352 CPU0: c2600_pci: write to addr 0x100, value=0x8a000080, pc=0x80383d60
-Apr 19 09:31:09.352 CPU0: c2600_pci: write to addr 0x104, value=0x0, pc=0x80383d70
-Apr 19 09:31:09.352 CPU0: c2600_pci: write to addr 0x110, value=0x0, pc=0x80383d7c
-Apr 19 09:31:09.352 CPU0: c2600_pci: write to addr 0x604, value=0x0, pc=0x80383d88
-Apr 19 09:31:09.352 CPU0: c2600_pci: write to addr 0x608, value=0x0, pc=0x80383d94
-Apr 19 09:31:09.353 CPU0: c2600_pci: write to addr 0xf00, value=0x80000000, pc=0x80383da4
-Apr 19 09:31:09.353 CPU0: c2600_pci: write to addr 0xf04, value=0xf1, pc=0x80383db4
-Apr 19 09:31:09.353 CPU0: c2600_pci: write to addr 0xf10, value=0x80000000, pc=0x80383dc0
-Apr 19 09:31:09.353 CPU0: c2600_pci: write to addr 0xf14, value=0xf1, pc=0x80383dcc
-Apr 19 09:31:09.353 CPU0: c2600_pci: write to addr 0xf80, value=0x81000000, pc=0x80383ddc
-Apr 19 09:31:09.358 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c70 (size=4)
-Apr 19 09:31:09.359 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c78 (size=4)
-Apr 19 09:31:09.359 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c7c (size=4)
-Apr 19 09:31:09.359 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c84 (size=4)
-Apr 19 09:31:09.359 ROM: unhandled syscall 0x0000003e at pc=0x00000000 (a1=0x00000000,a2=0x00000000,a3=0x00000000)
-Apr 19 09:31:09.359 CPU0: NS16552: write to addr 0x3, value=0x7, pc=0x8037a4a8 (size=1)
-Apr 19 09:31:09.359 CPU0: NS16552: write to addr 0x4, value=0x3, pc=0x8037a4d4 (size=1)
-Apr 19 09:31:09.359 ROM: unhandled syscall 0x00000047 at pc=0x00000000 (a1=0x00000c44,a2=0x00000000,a3=0x00000002)
-Apr 19 09:31:09.564 CPU0: MPC860: write to addr 0x980, value=0x0, pc=0x80380420 (size=2)
-Apr 19 09:31:09.571 ROM: trying to read bootvar 'BOOT'
-Apr 19 09:31:09.572 ROM: trying to read bootvar 'CONFIG_FILE'
-Apr 19 09:31:09.574 ROM: trying to read bootvar 'BOOTLDR'
-Apr 19 09:31:09.574 ROM: trying to read bootvar 'RSHELF'
-Apr 19 09:31:09.574 ROM: trying to read bootvar 'DSHELF'
-Apr 19 09:31:09.574 ROM: trying to read bootvar 'DSHELFINFO'
-Apr 19 09:31:09.574 ROM: trying to read bootvar 'RESET_COUNTER'
-Apr 19 09:31:09.574 ROM: trying to read bootvar 'CHRG_LOCRECSN'
-Apr 19 09:31:09.631 CPU0: MPC860: read from unknown addr 0x0, pc=0x80374664 (size=4)
-Apr 19 09:31:09.631 CPU0: MPC860: write to addr 0x0, value=0x0, pc=0x8037466c (size=4)
-Apr 19 09:31:09.631 CPU0: MPC860: write to addr 0x30, value=0x0, pc=0x80374674 (size=4)
-Apr 19 09:31:09.631 CPU0: MPC860: write to addr 0x940, value=0x7f00, pc=0x8037467c (size=4)
-Apr 19 09:31:09.631 CPU0: MPC860: read from unknown addr 0x940, pc=0x80374680 (size=4)
-Apr 19 09:31:09.631 CPU0: MPC860: write to addr 0x940, value=0x360000, pc=0x80374688 (size=4)
-Apr 19 09:31:09.634 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c70 (size=4)
-Apr 19 09:31:09.634 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c78 (size=4)
-Apr 19 09:31:09.635 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c7c (size=4)
-Apr 19 09:31:09.635 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c84 (size=4)
-Apr 19 09:31:09.635 CPU0: MPC860: read from unknown addr 0x940, pc=0x803746cc (size=4)
-Apr 19 09:31:09.635 CPU0: MPC860: write to addr 0x940, value=0x80, pc=0x803746d4 (size=4)
-Apr 19 09:31:09.635 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c70 (size=4)
-Apr 19 09:31:09.636 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c78 (size=4)
-Apr 19 09:31:09.636 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c7c (size=4)
-Apr 19 09:31:09.636 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c84 (size=4)
-Apr 19 09:31:09.701 CPU0: MPC860: read from unknown addr 0x9c0, pc=0x803777e8 (size=2)
-Apr 19 09:31:09.702 CPU0: MPC860: write to addr 0x9c0, value=0x511, pc=0x803777f4 (size=2)
-Apr 19 09:31:09.702 CPU0: MPC860: read from unknown addr 0x9c4, pc=0x8037dda0 (size=2)
-Apr 19 09:31:09.702 CPU0: MPC860: write to addr 0x9c4, value=0x0, pc=0x8037dda8 (size=2)
-Apr 19 09:31:09.702 CPU0: MPC860: read from unknown addr 0x9c4, pc=0x8037ddac (size=2)
-Apr 19 09:31:09.703 CPU0: MPC860: write to addr 0x9c4, value=0x60, pc=0x8037ddb4 (size=2)
-Apr 19 09:31:09.714 CPU0: flash0: default write case at offset=0x0000000, val=0xc3c3c3c3
-Apr 19 09:31:09.753 CPU0: PCI: read request at pc=0x80383f10: bus=0,device=0,function=0,reg=0x00
-Apr 19 09:31:09.753 CPU0: PCI: write request (data=0x40000000) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x14
-Apr 19 09:31:09.753 CISCO2600-MB-2FE(0): registers are mapped at 0x40000000
-Apr 19 09:31:09.753 CPU0: PCI: write request (data=0x00000006) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x04
-Apr 19 09:31:09.754 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x0c
-Apr 19 09:31:09.754 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x0c
-Apr 19 09:31:09.774 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
-Apr 19 09:31:09.774 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
-Apr 19 09:31:09.774 CISCO2600-MB-2FE(0): CSR0 = 0x0101
-Apr 19 09:31:09.774 CPU0: PCI: read request at pc=0x80383f10: bus=0,device=1,function=0,reg=0x00
-Apr 19 09:31:09.774 CPU0: PCI: write request (data=0x40100000) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x14
-Apr 19 09:31:09.774 CISCO2600-MB-2FE(0): registers are mapped at 0x40100000
-Apr 19 09:31:09.774 CPU0: PCI: write request (data=0x00000006) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x04
-Apr 19 09:31:09.774 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x0c
-Apr 19 09:31:09.774 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x0c
-Apr 19 09:31:09.778 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
-Apr 19 09:31:09.778 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
-Apr 19 09:31:09.779 CISCO2600-MB-2FE(0): CSR0 = 0x0101
-Apr 19 09:31:09.811 CPU0: JIT: partial JIT flush (count=209)
-Apr 19 09:31:09.828 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
-Apr 19 09:31:09.828 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
-Apr 19 09:31:09.829 CISCO2600-MB-2FE(0): CSR0 = 0x0101
-Apr 19 09:31:09.829 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
-Apr 19 09:31:09.829 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
-Apr 19 09:31:09.829 CISCO2600-MB-2FE(0): CSR0 = 0x0101
-Apr 19 09:31:10.103 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
-Apr 19 09:31:10.103 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
-Apr 19 09:31:10.103 CISCO2600-MB-2FE(0): CSR0 = 0x0101
-Apr 19 09:31:10.103 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
-Apr 19 09:31:10.104 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
-Apr 19 09:31:10.104 CISCO2600-MB-2FE(0): CSR0 = 0x0101
-Apr 19 09:31:10.172 CPU0: JIT: flushing data structures (compiled pages=272)
-Apr 19 09:31:10.482 CPU0: JIT: partial JIT flush (count=246)
-Apr 19 09:31:11.712 CPU0: NS16552: read from addr 0xb, pc=0x8037a378 (size=1)
-Apr 19 09:31:11.712 CPU0: NS16552: write to addr 0xb, value=0x80, pc=0x8037a380 (size=1)
-Apr 19 09:31:11.712 CPU0: NS16552: write to addr 0xb, value=0x0, pc=0x8037a390 (size=1)
-Apr 19 09:31:11.712 CPU0: NS16552: write to addr 0xb, value=0x7, pc=0x8037a4a8 (size=1)
-Apr 19 09:31:11.712 CPU0: NS16552: write to addr 0xc, value=0x3, pc=0x8037a4d4 (size=1)
-Apr 19 09:31:11.720 ROM: unhandled syscall 0x0000001a at pc=0x00000000 (a1=0x00000000,a2=0x809e68ec,a3=0x00000000)
-Apr 19 09:31:11.721 ROM: unhandled syscall 0x00000009 at pc=0x00000000 (a1=0x00000c44,a2=0x00000000,a3=0x00000002)
-Apr 19 09:31:11.874 CPU0: JIT: flushing data structures (compiled pages=277)
-Apr 19 09:31:12.054 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
-Apr 19 09:31:12.054 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
-Apr 19 09:31:12.054 CISCO2600-MB-2FE(0): CSR0 = 0x0101
-Apr 19 09:31:12.157 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
-Apr 19 09:31:12.157 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
-Apr 19 09:31:12.157 CISCO2600-MB-2FE(0): CSR0 = 0x0101
-Apr 19 09:31:12.597 CPU0: JIT: partial JIT flush (count=227)
-Apr 19 09:31:12.781 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
-Apr 19 09:31:12.782 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
-Apr 19 09:31:12.782 CISCO2600-MB-2FE(0): CSR0 = 0x0101
-Apr 19 09:31:14.689 MPC860: activating IDMA0
-Apr 19 09:31:14.689 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01199aa0, dst_bp=0x012b5a2a len=86
-Apr 19 09:31:14.689 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:14.692 MPC860: activating IDMA0
-Apr 19 09:31:14.692 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119a120, dst_bp=0x012b5caa len=86
-Apr 19 09:31:14.692 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:14.790 MPC860: activating IDMA0
-Apr 19 09:31:14.790 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119a7a0, dst_bp=0x012b5caa len=60
-Apr 19 09:31:14.790 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:14.864 CPU0: JIT: flushing data structures (compiled pages=272)
-Apr 19 09:31:18.738 MPC860: activating IDMA0
-Apr 19 09:31:18.739 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119ae20, dst_bp=0x01104a4a len=166
-Apr 19 09:31:18.739 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:18.743 MPC860: activating IDMA0
-Apr 19 09:31:18.743 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119b4a0, dst_bp=0x012b882a len=166
-Apr 19 09:31:18.743 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:19.004 MPC860: activating IDMA0
-Apr 19 09:31:19.004 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119bb20, dst_bp=0x012b882a len=106
-Apr 19 09:31:19.004 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:19.005 MPC860: activating IDMA0
-Apr 19 09:31:19.005 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119c1a0, dst_bp=0x01104a4a len=106
-Apr 19 09:31:19.005 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:25.015 MPC860: activating IDMA0
-Apr 19 09:31:25.015 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119c820, dst_bp=0x012b5caa len=66
-Apr 19 09:31:25.015 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:25.016 MPC860: activating IDMA0
-Apr 19 09:31:25.016 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119cea0, dst_bp=0x012b5a2a len=66
-Apr 19 09:31:25.016 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:43.942 MPC860: activating IDMA0
-Apr 19 09:31:43.952 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119d520, dst_bp=0x01104a4a len=186
-Apr 19 09:31:43.952 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:31:43.952 MPC860: activating IDMA0
-Apr 19 09:31:43.953 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119dba0, dst_bp=0x012b882a len=186
-Apr 19 09:31:43.953 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:32:08.006 MPC860: activating IDMA0
-Apr 19 09:32:08.007 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119e220, dst_bp=0x012b8822 len=310
-Apr 19 09:32:08.007 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:32:12.115 MPC860: activating IDMA0
-Apr 19 09:32:12.116 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119e8a0, dst_bp=0x012b882a len=186
-Apr 19 09:32:12.116 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:32:12.116 MPC860: activating IDMA0
-Apr 19 09:32:12.116 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119ef20, dst_bp=0x01104a4a len=186
-Apr 19 09:32:12.116 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:32:39.303 MPC860: activating IDMA0
-Apr 19 09:32:39.303 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119f5a0, dst_bp=0x01104a4a len=186
-Apr 19 09:32:39.303 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:32:39.304 MPC860: activating IDMA0
-Apr 19 09:32:39.304 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119fc20, dst_bp=0x01104a4a len=186
-Apr 19 09:32:39.304 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:33:06.525 MPC860: activating IDMA0
-Apr 19 09:33:06.525 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a02a0, dst_bp=0x01104a4a len=186
-Apr 19 09:33:06.526 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:33:06.526 MPC860: activating IDMA0
-Apr 19 09:33:06.526 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a0920, dst_bp=0x012b882a len=186
-Apr 19 09:33:06.526 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:33:07.487 MPC860: activating IDMA0
-Apr 19 09:33:07.488 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a0fa0, dst_bp=0x012b8822 len=310
-Apr 19 09:33:07.488 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:33:34.561 MPC860: activating IDMA0
-Apr 19 09:33:34.561 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a1620, dst_bp=0x012b882a len=186
-Apr 19 09:33:34.562 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:33:34.564 MPC860: activating IDMA0
-Apr 19 09:33:34.564 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a1ca0, dst_bp=0x012b882a len=186
-Apr 19 09:33:34.564 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:34:02.414 MPC860: activating IDMA0
-Apr 19 09:34:02.414 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a2320, dst_bp=0x012b882a len=186
-Apr 19 09:34:02.414 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:34:02.414 MPC860: activating IDMA0
-Apr 19 09:34:02.414 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a29a0, dst_bp=0x01104a4a len=186
-Apr 19 09:34:02.414 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:34:07.491 MPC860: activating IDMA0
-Apr 19 09:34:07.491 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a3020, dst_bp=0x01104a42 len=310
-Apr 19 09:34:07.491 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:34:32.375 MPC860: activating IDMA0
-Apr 19 09:34:32.376 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a36a0, dst_bp=0x01104a4a len=186
-Apr 19 09:34:32.376 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:34:32.376 MPC860: activating IDMA0
-Apr 19 09:34:32.376 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a3d20, dst_bp=0x012b882a len=186
-Apr 19 09:34:32.376 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:35:00.662 MPC860: activating IDMA0
-Apr 19 09:35:00.662 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a43a0, dst_bp=0x012b882a len=186
-Apr 19 09:35:00.663 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:35:00.663 MPC860: activating IDMA0
-Apr 19 09:35:00.663 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a4a20, dst_bp=0x01104a4a len=186
-Apr 19 09:35:00.663 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:35:07.525 MPC860: activating IDMA0
-Apr 19 09:35:07.525 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a50a0, dst_bp=0x01104a42 len=310
-Apr 19 09:35:07.526 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:35:28.671 MPC860: activating IDMA0
-Apr 19 09:35:28.671 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a5720, dst_bp=0x01104a4a len=186
-Apr 19 09:35:28.671 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:35:28.673 MPC860: activating IDMA0
-Apr 19 09:35:28.674 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a5da0, dst_bp=0x01104a4a len=186
-Apr 19 09:35:28.674 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:35:36.350 MPC860: activating IDMA0
-Apr 19 09:35:36.350 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a6420, dst_bp=0x01104a4a len=106
-Apr 19 09:35:36.350 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:35:36.351 MPC860: activating IDMA0
-Apr 19 09:35:36.351 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a6aa0, dst_bp=0x012b882a len=106
-Apr 19 09:35:36.351 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:35:56.087 MPC860: activating IDMA0
-Apr 19 09:35:56.096 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01187380, dst_bp=0x012b882a len=186
-Apr 19 09:35:56.097 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:35:56.097 MPC860: activating IDMA0
-Apr 19 09:35:56.097 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01187a00, dst_bp=0x01104a4a len=186
-Apr 19 09:35:56.097 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:36:07.545 MPC860: activating IDMA0
-Apr 19 09:36:07.546 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01188080, dst_bp=0x01104a42 len=310
-Apr 19 09:36:07.547 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:36:23.453 MPC860: activating IDMA0
-Apr 19 09:36:23.453 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01188700, dst_bp=0x01104a4a len=186
-Apr 19 09:36:23.453 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:36:23.455 MPC860: activating IDMA0
-Apr 19 09:36:23.455 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01188d80, dst_bp=0x01104a4a len=186
-Apr 19 09:36:23.455 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:36:52.665 MPC860: activating IDMA0
-Apr 19 09:36:52.665 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01189400, dst_bp=0x01104a4a len=126
-Apr 19 09:36:52.665 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:36:52.667 MPC860: activating IDMA0
-Apr 19 09:36:52.668 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01189a80, dst_bp=0x01104a4a len=126
-Apr 19 09:36:52.668 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:37:07.522 MPC860: activating IDMA0
-Apr 19 09:37:07.523 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118a100, dst_bp=0x01104a42 len=310
-Apr 19 09:37:07.523 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:37:23.696 MPC860: activating IDMA0
-Apr 19 09:37:23.696 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118a780, dst_bp=0x01104a4a len=126
-Apr 19 09:37:23.696 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:37:23.696 MPC860: activating IDMA0
-Apr 19 09:37:23.696 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118ae00, dst_bp=0x012b882a len=126
-Apr 19 09:37:23.696 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:37:49.314 MPC860: activating IDMA0
-Apr 19 09:37:49.314 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118b480, dst_bp=0x012b882a len=126
-Apr 19 09:37:49.315 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:37:49.315 MPC860: activating IDMA0
-Apr 19 09:37:49.315 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118bb00, dst_bp=0x01104a4a len=126
-Apr 19 09:37:49.315 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:38:07.534 MPC860: activating IDMA0
-Apr 19 09:38:07.534 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118c180, dst_bp=0x01104a42 len=310
-Apr 19 09:38:07.535 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:38:15.593 MPC860: activating IDMA0
-Apr 19 09:38:15.593 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118c800, dst_bp=0x01104a4a len=126
-Apr 19 09:38:15.593 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:38:15.593 MPC860: activating IDMA0
-Apr 19 09:38:15.594 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118ce80, dst_bp=0x012b882a len=126
-Apr 19 09:38:15.594 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:38:45.174 MPC860: activating IDMA0
-Apr 19 09:38:45.174 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118d500, dst_bp=0x012b882a len=126
-Apr 19 09:38:45.174 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:38:45.174 MPC860: activating IDMA0
-Apr 19 09:38:45.174 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118db80, dst_bp=0x01104a4a len=126
-Apr 19 09:38:45.174 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:39:07.667 MPC860: activating IDMA0
-Apr 19 09:39:07.667 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118e200, dst_bp=0x01104a42 len=310
-Apr 19 09:39:07.667 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:39:12.977 MPC860: activating IDMA0
-Apr 19 09:39:12.977 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118e880, dst_bp=0x01104a4a len=126
-Apr 19 09:39:12.977 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:39:12.978 MPC860: activating IDMA0
-Apr 19 09:39:12.978 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118ef00, dst_bp=0x012b882a len=126
-Apr 19 09:39:12.978 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:39:41.852 MPC860: activating IDMA0
-Apr 19 09:39:41.852 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118f580, dst_bp=0x012b882a len=126
-Apr 19 09:39:41.852 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:39:41.853 MPC860: activating IDMA0
-Apr 19 09:39:41.853 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118fc00, dst_bp=0x012b882a len=126
-Apr 19 09:39:41.854 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:40:07.566 MPC860: activating IDMA0
-Apr 19 09:40:07.566 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01190280, dst_bp=0x012b8822 len=310
-Apr 19 09:40:07.566 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:40:11.459 MPC860: activating IDMA0
-Apr 19 09:40:11.459 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01190900, dst_bp=0x012b882a len=126
-Apr 19 09:40:11.459 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:40:11.460 MPC860: activating IDMA0
-Apr 19 09:40:11.460 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01190f80, dst_bp=0x01104a4a len=126
-Apr 19 09:40:11.460 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:40:38.054 MPC860: activating IDMA0
-Apr 19 09:40:38.054 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01191600, dst_bp=0x01104a4a len=126
-Apr 19 09:40:38.054 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:40:38.054 MPC860: activating IDMA0
-Apr 19 09:40:38.054 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01191c80, dst_bp=0x012b882a len=126
-Apr 19 09:40:38.055 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:41:04.740 MPC860: activating IDMA0
-Apr 19 09:41:04.740 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01192300, dst_bp=0x012b882a len=126
-Apr 19 09:41:04.741 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:41:04.741 MPC860: activating IDMA0
-Apr 19 09:41:04.741 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01192980, dst_bp=0x01104a4a len=126
-Apr 19 09:41:04.741 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:41:07.574 MPC860: activating IDMA0
-Apr 19 09:41:07.574 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01193000, dst_bp=0x01104a42 len=310
-Apr 19 09:41:07.574 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:41:32.380 MPC860: activating IDMA0
-Apr 19 09:41:32.381 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01193680, dst_bp=0x01104a4a len=126
-Apr 19 09:41:32.381 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:41:32.384 MPC860: activating IDMA0
-Apr 19 09:41:32.384 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x01104a4a len=126
-Apr 19 09:41:32.385 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:41:59.336 MPC860: activating IDMA0
-Apr 19 09:41:59.336 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265480, dst_bp=0x01104a4a len=126
-Apr 19 09:41:59.336 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:41:59.337 MPC860: activating IDMA0
-Apr 19 09:41:59.337 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264e00, dst_bp=0x012b882a len=126
-Apr 19 09:41:59.337 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:42:08.100 MPC860: activating IDMA0
-Apr 19 09:42:08.100 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264780, dst_bp=0x012b8822 len=310
-Apr 19 09:42:08.100 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:42:26.765 MPC860: activating IDMA0
-Apr 19 09:42:26.765 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264100, dst_bp=0x012b882a len=126
-Apr 19 09:42:26.765 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:42:26.766 MPC860: activating IDMA0
-Apr 19 09:42:26.766 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263a80, dst_bp=0x01104a4a len=126
-Apr 19 09:42:26.766 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:42:52.302 MPC860: activating IDMA0
-Apr 19 09:42:52.302 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263400, dst_bp=0x01104a4a len=126
-Apr 19 09:42:52.302 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:42:52.302 MPC860: activating IDMA0
-Apr 19 09:42:52.302 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262d80, dst_bp=0x012b882a len=126
-Apr 19 09:42:52.302 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:43:07.728 MPC860: activating IDMA0
-Apr 19 09:43:07.728 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262700, dst_bp=0x012b8822 len=310
-Apr 19 09:43:07.728 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:43:20.050 MPC860: activating IDMA0
-Apr 19 09:43:20.051 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262080, dst_bp=0x012b882a len=126
-Apr 19 09:43:20.051 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:43:20.051 MPC860: activating IDMA0
-Apr 19 09:43:20.051 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261a00, dst_bp=0x01104a4a len=126
-Apr 19 09:43:20.052 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:43:49.256 MPC860: activating IDMA0
-Apr 19 09:43:49.257 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261380, dst_bp=0x01104a4a len=126
-Apr 19 09:43:49.257 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:43:49.257 MPC860: activating IDMA0
-Apr 19 09:43:49.257 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260d00, dst_bp=0x012b882a len=126
-Apr 19 09:43:49.257 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:44:07.619 MPC860: activating IDMA0
-Apr 19 09:44:07.619 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260680, dst_bp=0x012b8822 len=310
-Apr 19 09:44:07.619 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:44:18.072 MPC860: activating IDMA0
-Apr 19 09:44:18.072 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260000, dst_bp=0x012b882a len=126
-Apr 19 09:44:18.072 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:44:18.074 MPC860: activating IDMA0
-Apr 19 09:44:18.074 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f980, dst_bp=0x012b882a len=126
-Apr 19 09:44:18.074 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:44:45.360 MPC860: activating IDMA0
-Apr 19 09:44:45.361 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f300, dst_bp=0x012b882a len=126
-Apr 19 09:44:45.361 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:44:45.361 MPC860: activating IDMA0
-Apr 19 09:44:45.361 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ec80, dst_bp=0x01104a4a len=126
-Apr 19 09:44:45.361 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:45:07.602 MPC860: activating IDMA0
-Apr 19 09:45:07.602 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125e600, dst_bp=0x01104a42 len=310
-Apr 19 09:45:07.602 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:45:11.796 MPC860: activating IDMA0
-Apr 19 09:45:11.797 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125df80, dst_bp=0x01104a4a len=126
-Apr 19 09:45:11.797 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:45:11.797 MPC860: activating IDMA0
-Apr 19 09:45:11.797 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d900, dst_bp=0x012b882a len=126
-Apr 19 09:45:11.797 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:45:39.572 MPC860: activating IDMA0
-Apr 19 09:45:39.572 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d280, dst_bp=0x012b882a len=126
-Apr 19 09:45:39.572 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:45:39.573 MPC860: activating IDMA0
-Apr 19 09:45:39.573 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125cc00, dst_bp=0x01104a4a len=126
-Apr 19 09:45:39.573 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:46:07.442 MPC860: activating IDMA0
-Apr 19 09:46:07.442 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125c580, dst_bp=0x01104a4a len=126
-Apr 19 09:46:07.443 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:46:07.444 MPC860: activating IDMA0
-Apr 19 09:46:07.444 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125bf00, dst_bp=0x01104a4a len=126
-Apr 19 09:46:07.444 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:46:07.610 MPC860: activating IDMA0
-Apr 19 09:46:07.610 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b880, dst_bp=0x01104a42 len=310
-Apr 19 09:46:07.610 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:46:34.270 MPC860: activating IDMA0
-Apr 19 09:46:34.270 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b200, dst_bp=0x01104a4a len=126
-Apr 19 09:46:34.270 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:46:34.272 MPC860: activating IDMA0
-Apr 19 09:46:34.272 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ab80, dst_bp=0x01104a4a len=126
-Apr 19 09:46:34.272 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:47:01.358 MPC860: activating IDMA0
-Apr 19 09:47:01.359 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125a500, dst_bp=0x01104a4a len=126
-Apr 19 09:47:01.359 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:47:01.362 MPC860: activating IDMA0
-Apr 19 09:47:01.362 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259e80, dst_bp=0x01104a4a len=126
-Apr 19 09:47:01.362 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:47:08.120 MPC860: activating IDMA0
-Apr 19 09:47:08.121 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259800, dst_bp=0x01104a42 len=310
-Apr 19 09:47:08.121 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:47:30.951 MPC860: activating IDMA0
-Apr 19 09:47:30.951 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259180, dst_bp=0x01104a4a len=126
-Apr 19 09:47:30.952 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:47:30.952 MPC860: activating IDMA0
-Apr 19 09:47:30.952 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258b00, dst_bp=0x012b882a len=126
-Apr 19 09:47:30.953 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:47:57.058 MPC860: activating IDMA0
-Apr 19 09:47:57.058 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258480, dst_bp=0x012b882a len=126
-Apr 19 09:47:57.059 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:47:57.059 MPC860: activating IDMA0
-Apr 19 09:47:57.059 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257e00, dst_bp=0x01104a4a len=126
-Apr 19 09:47:57.059 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:48:08.009 MPC860: activating IDMA0
-Apr 19 09:48:08.009 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257780, dst_bp=0x01104a42 len=310
-Apr 19 09:48:08.009 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:48:23.468 MPC860: activating IDMA0
-Apr 19 09:48:23.468 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257100, dst_bp=0x01104a4a len=126
-Apr 19 09:48:23.469 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:48:23.469 MPC860: activating IDMA0
-Apr 19 09:48:23.469 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256a80, dst_bp=0x012b882a len=126
-Apr 19 09:48:23.469 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:48:50.265 MPC860: activating IDMA0
-Apr 19 09:48:50.265 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256400, dst_bp=0x012b882a len=126
-Apr 19 09:48:50.266 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:48:50.266 MPC860: activating IDMA0
-Apr 19 09:48:50.266 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255d80, dst_bp=0x01104a4a len=126
-Apr 19 09:48:50.266 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:49:07.640 MPC860: activating IDMA0
-Apr 19 09:49:07.640 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255700, dst_bp=0x01104a42 len=310
-Apr 19 09:49:07.641 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:49:18.157 MPC860: activating IDMA0
-Apr 19 09:49:18.157 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255080, dst_bp=0x01104a4a len=126
-Apr 19 09:49:18.157 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:49:18.157 MPC860: activating IDMA0
-Apr 19 09:49:18.157 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254a00, dst_bp=0x01104a4a len=126
-Apr 19 09:49:18.157 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:49:48.257 MPC860: activating IDMA0
-Apr 19 09:49:48.258 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254380, dst_bp=0x01104a4a len=126
-Apr 19 09:49:48.258 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:49:48.259 MPC860: activating IDMA0
-Apr 19 09:49:48.259 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253d00, dst_bp=0x01104a4a len=126
-Apr 19 09:49:48.259 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:50:07.741 MPC860: activating IDMA0
-Apr 19 09:50:07.741 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253680, dst_bp=0x01104a42 len=310
-Apr 19 09:50:07.741 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:50:16.732 MPC860: activating IDMA0
-Apr 19 09:50:16.732 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253000, dst_bp=0x01104a4a len=126
-Apr 19 09:50:16.732 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:50:16.732 MPC860: activating IDMA0
-Apr 19 09:50:16.732 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252980, dst_bp=0x012b882a len=126
-Apr 19 09:50:16.733 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:50:46.120 MPC860: activating IDMA0
-Apr 19 09:50:46.120 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252300, dst_bp=0x012b882a len=126
-Apr 19 09:50:46.120 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:50:46.120 MPC860: activating IDMA0
-Apr 19 09:50:46.120 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251c80, dst_bp=0x01104a4a len=126
-Apr 19 09:50:46.120 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:51:07.631 MPC860: activating IDMA0
-Apr 19 09:51:07.631 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251600, dst_bp=0x01104a42 len=310
-Apr 19 09:51:07.633 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:51:13.790 MPC860: activating IDMA0
-Apr 19 09:51:13.794 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250f80, dst_bp=0x01104a4a len=126
-Apr 19 09:51:13.794 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:51:13.795 MPC860: activating IDMA0
-Apr 19 09:51:13.795 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250900, dst_bp=0x012b882a len=126
-Apr 19 09:51:13.795 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:51:40.025 MPC860: activating IDMA0
-Apr 19 09:51:40.025 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250280, dst_bp=0x012b882a len=126
-Apr 19 09:51:40.025 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:51:40.026 MPC860: activating IDMA0
-Apr 19 09:51:40.026 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124fc00, dst_bp=0x01104a4a len=126
-Apr 19 09:51:40.026 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:52:07.620 MPC860: activating IDMA0
-Apr 19 09:52:07.620 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124f580, dst_bp=0x01104a42 len=310
-Apr 19 09:52:07.620 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:52:08.957 MPC860: activating IDMA0
-Apr 19 09:52:08.957 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ef00, dst_bp=0x01104a4a len=126
-Apr 19 09:52:08.957 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:52:08.957 MPC860: activating IDMA0
-Apr 19 09:52:08.957 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e880, dst_bp=0x012b882a len=126
-Apr 19 09:52:08.958 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:52:38.854 MPC860: activating IDMA0
-Apr 19 09:52:38.855 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e200, dst_bp=0x012b882a len=126
-Apr 19 09:52:38.855 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:52:38.855 MPC860: activating IDMA0
-Apr 19 09:52:38.855 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124db80, dst_bp=0x01104a4a len=126
-Apr 19 09:52:38.855 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:53:06.805 MPC860: activating IDMA0
-Apr 19 09:53:06.805 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124d500, dst_bp=0x01104a4a len=126
-Apr 19 09:53:06.805 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:53:06.806 MPC860: activating IDMA0
-Apr 19 09:53:06.806 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ce80, dst_bp=0x012b882a len=126
-Apr 19 09:53:06.806 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:53:07.721 MPC860: activating IDMA0
-Apr 19 09:53:07.721 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c800, dst_bp=0x012b8822 len=310
-Apr 19 09:53:07.722 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:53:33.135 MPC860: activating IDMA0
-Apr 19 09:53:33.135 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c180, dst_bp=0x012b882a len=126
-Apr 19 09:53:33.135 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:53:33.136 MPC860: activating IDMA0
-Apr 19 09:53:33.136 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124bb00, dst_bp=0x01104a4a len=126
-Apr 19 09:53:33.136 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:54:00.102 MPC860: activating IDMA0
-Apr 19 09:54:00.102 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x01104a4a len=126
-Apr 19 09:54:00.102 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:54:00.103 MPC860: activating IDMA0
-Apr 19 09:54:00.103 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124b480, dst_bp=0x01104a4a len=126
-Apr 19 09:54:00.103 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:54:07.660 MPC860: activating IDMA0
-Apr 19 09:54:07.660 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264e00, dst_bp=0x01104a42 len=310
-Apr 19 09:54:07.660 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:54:29.402 MPC860: activating IDMA0
-Apr 19 09:54:29.402 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264780, dst_bp=0x01104a4a len=126
-Apr 19 09:54:29.402 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:54:29.404 MPC860: activating IDMA0
-Apr 19 09:54:29.404 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265480, dst_bp=0x01104a4a len=126
-Apr 19 09:54:29.405 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:54:59.969 MPC860: activating IDMA0
-Apr 19 09:54:59.969 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263a80, dst_bp=0x01104a4a len=126
-Apr 19 09:54:59.969 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:54:59.970 MPC860: activating IDMA0
-Apr 19 09:54:59.970 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264100, dst_bp=0x012b882a len=126
-Apr 19 09:54:59.970 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:55:08.397 MPC860: activating IDMA0
-Apr 19 09:55:08.397 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262d80, dst_bp=0x012b8822 len=310
-Apr 19 09:55:08.397 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:55:27.460 MPC860: activating IDMA0
-Apr 19 09:55:27.461 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262700, dst_bp=0x012b882a len=126
-Apr 19 09:55:27.461 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:55:27.461 MPC860: activating IDMA0
-Apr 19 09:55:27.462 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263400, dst_bp=0x01104a4a len=126
-Apr 19 09:55:27.462 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:55:55.689 MPC860: activating IDMA0
-Apr 19 09:55:55.689 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261a00, dst_bp=0x01104a4a len=126
-Apr 19 09:55:55.689 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:55:55.689 MPC860: activating IDMA0
-Apr 19 09:55:55.690 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262080, dst_bp=0x012b882a len=126
-Apr 19 09:55:55.690 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:56:07.721 MPC860: activating IDMA0
-Apr 19 09:56:07.721 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260d00, dst_bp=0x012b8822 len=310
-Apr 19 09:56:07.721 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:56:22.666 MPC860: activating IDMA0
-Apr 19 09:56:22.666 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260680, dst_bp=0x012b882a len=126
-Apr 19 09:56:22.666 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:56:22.667 MPC860: activating IDMA0
-Apr 19 09:56:22.667 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260000, dst_bp=0x012b882a len=126
-Apr 19 09:56:22.667 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:56:50.090 MPC860: activating IDMA0
-Apr 19 09:56:50.090 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f980, dst_bp=0x012b882a len=126
-Apr 19 09:56:50.090 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:56:50.090 MPC860: activating IDMA0
-Apr 19 09:56:50.090 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261380, dst_bp=0x01104a4a len=126
-Apr 19 09:56:50.091 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:57:07.693 MPC860: activating IDMA0
-Apr 19 09:57:07.693 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ec80, dst_bp=0x01104a42 len=310
-Apr 19 09:57:07.693 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:57:19.784 MPC860: activating IDMA0
-Apr 19 09:57:19.784 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125e600, dst_bp=0x01104a4a len=126
-Apr 19 09:57:19.784 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:57:19.785 MPC860: activating IDMA0
-Apr 19 09:57:19.785 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f300, dst_bp=0x01104a4a len=126
-Apr 19 09:57:19.785 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:57:48.618 MPC860: activating IDMA0
-Apr 19 09:57:48.619 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d900, dst_bp=0x01104a4a len=126
-Apr 19 09:57:48.619 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:57:48.619 MPC860: activating IDMA0
-Apr 19 09:57:48.619 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125df80, dst_bp=0x012b882a len=126
-Apr 19 09:57:48.619 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:58:07.668 MPC860: activating IDMA0
-Apr 19 09:58:07.669 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125cc00, dst_bp=0x012b8822 len=310
-Apr 19 09:58:07.669 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:58:15.046 MPC860: activating IDMA0
-Apr 19 09:58:15.046 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125c580, dst_bp=0x012b882a len=126
-Apr 19 09:58:15.046 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:58:15.046 MPC860: activating IDMA0
-Apr 19 09:58:15.046 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125bf00, dst_bp=0x01104a4a len=126
-Apr 19 09:58:15.046 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:58:44.861 MPC860: activating IDMA0
-Apr 19 09:58:44.862 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b880, dst_bp=0x01104a4a len=126
-Apr 19 09:58:44.862 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:58:44.862 MPC860: activating IDMA0
-Apr 19 09:58:44.862 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b200, dst_bp=0x012b882a len=126
-Apr 19 09:58:44.862 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:59:07.728 MPC860: activating IDMA0
-Apr 19 09:59:07.728 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ab80, dst_bp=0x012b8822 len=310
-Apr 19 09:59:07.728 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:59:13.570 MPC860: activating IDMA0
-Apr 19 09:59:13.570 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125a500, dst_bp=0x012b882a len=126
-Apr 19 09:59:13.570 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:59:13.570 MPC860: activating IDMA0
-Apr 19 09:59:13.570 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259e80, dst_bp=0x01104a4a len=126
-Apr 19 09:59:13.570 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:59:39.088 MPC860: activating IDMA0
-Apr 19 09:59:39.088 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259800, dst_bp=0x01104a4a len=126
-Apr 19 09:59:39.088 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 09:59:39.088 MPC860: activating IDMA0
-Apr 19 09:59:39.088 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d280, dst_bp=0x012b882a len=126
-Apr 19 09:59:39.088 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:00:07.597 MPC860: activating IDMA0
-Apr 19 10:00:07.598 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258b00, dst_bp=0x012b882a len=126
-Apr 19 10:00:07.598 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:00:07.598 MPC860: activating IDMA0
-Apr 19 10:00:07.599 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259180, dst_bp=0x01104a4a len=126
-Apr 19 10:00:07.599 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:00:07.673 MPC860: activating IDMA0
-Apr 19 10:00:07.673 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257e00, dst_bp=0x01104a42 len=310
-Apr 19 10:00:07.674 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:00:36.826 MPC860: activating IDMA0
-Apr 19 10:00:36.826 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257780, dst_bp=0x01104a4a len=126
-Apr 19 10:00:36.826 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:00:36.826 MPC860: activating IDMA0
-Apr 19 10:00:36.826 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257100, dst_bp=0x012b882a len=126
-Apr 19 10:00:36.826 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:01:04.865 MPC860: activating IDMA0
-Apr 19 10:01:04.865 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256a80, dst_bp=0x012b882a len=126
-Apr 19 10:01:04.865 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:01:04.865 MPC860: activating IDMA0
-Apr 19 10:01:04.866 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258480, dst_bp=0x01104a4a len=126
-Apr 19 10:01:04.866 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:01:07.689 MPC860: activating IDMA0
-Apr 19 10:01:07.689 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255d80, dst_bp=0x01104a42 len=310
-Apr 19 10:01:07.689 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:01:34.685 MPC860: activating IDMA0
-Apr 19 10:01:34.686 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255700, dst_bp=0x01104a4a len=126
-Apr 19 10:01:34.686 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:01:34.686 MPC860: activating IDMA0
-Apr 19 10:01:34.686 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255080, dst_bp=0x012b882a len=126
-Apr 19 10:01:34.687 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:02:03.323 MPC860: activating IDMA0
-Apr 19 10:02:03.323 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254a00, dst_bp=0x012b882a len=126
-Apr 19 10:02:03.323 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:02:03.324 MPC860: activating IDMA0
-Apr 19 10:02:03.324 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254380, dst_bp=0x01104a4a len=126
-Apr 19 10:02:03.324 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:02:07.715 MPC860: activating IDMA0
-Apr 19 10:02:07.715 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253d00, dst_bp=0x01104a42 len=310
-Apr 19 10:02:07.715 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:02:29.345 MPC860: activating IDMA0
-Apr 19 10:02:29.345 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253680, dst_bp=0x01104a4a len=126
-Apr 19 10:02:29.346 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:02:29.346 MPC860: activating IDMA0
-Apr 19 10:02:29.346 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256400, dst_bp=0x01104a4a len=126
-Apr 19 10:02:29.346 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:02:58.259 MPC860: activating IDMA0
-Apr 19 10:02:58.260 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252980, dst_bp=0x01104a4a len=126
-Apr 19 10:02:58.260 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:02:58.261 MPC860: activating IDMA0
-Apr 19 10:02:58.261 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253000, dst_bp=0x012b882a len=126
-Apr 19 10:02:58.262 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:03:07.932 MPC860: activating IDMA0
-Apr 19 10:03:07.933 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251c80, dst_bp=0x012b8822 len=310
-Apr 19 10:03:07.933 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:03:27.513 MPC860: activating IDMA0
-Apr 19 10:03:27.513 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251600, dst_bp=0x012b882a len=126
-Apr 19 10:03:27.514 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:03:27.514 MPC860: activating IDMA0
-Apr 19 10:03:27.514 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252300, dst_bp=0x01104a4a len=126
-Apr 19 10:03:27.514 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:03:55.215 MPC860: activating IDMA0
-Apr 19 10:03:55.215 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250900, dst_bp=0x01104a4a len=126
-Apr 19 10:03:55.215 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:03:55.215 MPC860: activating IDMA0
-Apr 19 10:03:55.215 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250f80, dst_bp=0x012b882a len=126
-Apr 19 10:03:55.215 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:04:07.813 MPC860: activating IDMA0
-Apr 19 10:04:07.813 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124fc00, dst_bp=0x012b8822 len=310
-Apr 19 10:04:07.813 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:04:23.647 MPC860: activating IDMA0
-Apr 19 10:04:23.647 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124f580, dst_bp=0x012b882a len=126
-Apr 19 10:04:23.647 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:04:23.647 MPC860: activating IDMA0
-Apr 19 10:04:23.647 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250280, dst_bp=0x01104a4a len=126
-Apr 19 10:04:23.647 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:04:52.943 MPC860: activating IDMA0
-Apr 19 10:04:52.943 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e880, dst_bp=0x01104a4a len=126
-Apr 19 10:04:52.943 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:04:52.943 MPC860: activating IDMA0
-Apr 19 10:04:52.944 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ef00, dst_bp=0x012b882a len=126
-Apr 19 10:04:52.944 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:05:07.738 MPC860: activating IDMA0
-Apr 19 10:05:07.739 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124db80, dst_bp=0x012b8822 len=310
-Apr 19 10:05:07.739 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:05:21.229 MPC860: activating IDMA0
-Apr 19 10:05:21.229 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e200, dst_bp=0x012b882a len=126
-Apr 19 10:05:21.229 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:05:21.230 MPC860: activating IDMA0
-Apr 19 10:05:21.230 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ce80, dst_bp=0x01104a4a len=126
-Apr 19 10:05:21.230 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:05:47.770 MPC860: activating IDMA0
-Apr 19 10:05:47.770 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c800, dst_bp=0x01104a4a len=126
-Apr 19 10:05:47.770 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:05:47.770 MPC860: activating IDMA0
-Apr 19 10:05:47.770 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124d500, dst_bp=0x012b882a len=126
-Apr 19 10:05:47.770 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:06:07.761 MPC860: activating IDMA0
-Apr 19 10:06:07.761 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124bb00, dst_bp=0x012b8822 len=310
-Apr 19 10:06:07.761 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:06:17.785 MPC860: activating IDMA0
-Apr 19 10:06:17.785 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x012b882a len=126
-Apr 19 10:06:17.785 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:06:17.786 MPC860: activating IDMA0
-Apr 19 10:06:17.786 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124b480, dst_bp=0x01104a4a len=126
-Apr 19 10:06:17.786 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:06:46.871 MPC860: activating IDMA0
-Apr 19 10:06:46.871 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264e00, dst_bp=0x01104a4a len=126
-Apr 19 10:06:46.872 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:06:46.872 MPC860: activating IDMA0
-Apr 19 10:06:46.872 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264780, dst_bp=0x012b882a len=126
-Apr 19 10:06:46.873 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:07:08.189 MPC860: activating IDMA0
-Apr 19 10:07:08.189 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265480, dst_bp=0x012b8822 len=310
-Apr 19 10:07:08.189 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:07:16.181 MPC860: activating IDMA0
-Apr 19 10:07:16.182 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c180, dst_bp=0x012b882a len=126
-Apr 19 10:07:16.183 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:07:16.183 MPC860: activating IDMA0
-Apr 19 10:07:16.183 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264100, dst_bp=0x01104a4a len=126
-Apr 19 10:07:16.183 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:07:42.369 MPC860: activating IDMA0
-Apr 19 10:07:42.369 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262d80, dst_bp=0x01104a4a len=126
-Apr 19 10:07:42.369 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:07:42.369 MPC860: activating IDMA0
-Apr 19 10:07:42.369 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263a80, dst_bp=0x012b882a len=126
-Apr 19 10:07:42.369 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:08:07.709 MPC860: activating IDMA0
-Apr 19 10:08:07.709 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263400, dst_bp=0x012b8822 len=310
-Apr 19 10:08:07.709 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:08:11.642 MPC860: activating IDMA0
-Apr 19 10:08:11.643 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262700, dst_bp=0x012b882a len=126
-Apr 19 10:08:11.643 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:08:11.643 MPC860: activating IDMA0
-Apr 19 10:08:11.644 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262080, dst_bp=0x01104a4a len=126
-Apr 19 10:08:11.644 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:08:41.795 MPC860: activating IDMA0
-Apr 19 10:08:41.795 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260d00, dst_bp=0x01104a4a len=126
-Apr 19 10:08:41.795 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:08:41.795 MPC860: activating IDMA0
-Apr 19 10:08:41.795 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260680, dst_bp=0x012b882a len=126
-Apr 19 10:08:41.795 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:09:07.740 MPC860: activating IDMA0
-Apr 19 10:09:07.740 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260000, dst_bp=0x012b8822 len=310
-Apr 19 10:09:07.740 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:09:08.037 MPC860: activating IDMA0
-Apr 19 10:09:08.037 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261a00, dst_bp=0x012b882a len=126
-Apr 19 10:09:08.037 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:09:08.037 MPC860: activating IDMA0
-Apr 19 10:09:08.037 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261380, dst_bp=0x01104a4a len=126
-Apr 19 10:09:08.037 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:09:34.551 MPC860: activating IDMA0
-Apr 19 10:09:34.551 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ec80, dst_bp=0x01104a4a len=126
-Apr 19 10:09:34.551 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:09:34.552 MPC860: activating IDMA0
-Apr 19 10:09:34.552 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125e600, dst_bp=0x01104a4a len=126
-Apr 19 10:09:34.552 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:10:01.190 MPC860: activating IDMA0
-Apr 19 10:10:01.190 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f300, dst_bp=0x01104a4a len=126
-Apr 19 10:10:01.191 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:10:01.191 MPC860: activating IDMA0
-Apr 19 10:10:01.191 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f980, dst_bp=0x012b882a len=126
-Apr 19 10:10:01.191 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:10:07.811 MPC860: activating IDMA0
-Apr 19 10:10:07.811 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125df80, dst_bp=0x012b8822 len=310
-Apr 19 10:10:07.812 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:10:27.241 MPC860: activating IDMA0
-Apr 19 10:10:27.241 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125cc00, dst_bp=0x012b882a len=126
-Apr 19 10:10:27.241 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:10:27.242 MPC860: activating IDMA0
-Apr 19 10:10:27.243 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125c580, dst_bp=0x012b882a len=126
-Apr 19 10:10:27.243 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:10:56.543 MPC860: activating IDMA0
-Apr 19 10:10:56.543 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125bf00, dst_bp=0x012b882a len=126
-Apr 19 10:10:56.543 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:10:56.545 MPC860: activating IDMA0
-Apr 19 10:10:56.545 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d900, dst_bp=0x012b882a len=126
-Apr 19 10:10:56.545 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:11:08.147 MPC860: activating IDMA0
-Apr 19 10:11:08.147 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b200, dst_bp=0x012b8822 len=310
-Apr 19 10:11:08.147 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:11:23.126 MPC860: activating IDMA0
-Apr 19 10:11:23.127 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ab80, dst_bp=0x012b882a len=126
-Apr 19 10:11:23.127 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:11:23.127 MPC860: activating IDMA0
-Apr 19 10:11:23.127 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b880, dst_bp=0x012b882a len=126
-Apr 19 10:11:23.127 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:11:50.581 MPC860: activating IDMA0
-Apr 19 10:11:50.581 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259e80, dst_bp=0x012b882a len=126
-Apr 19 10:11:50.581 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:11:50.581 MPC860: activating IDMA0
-Apr 19 10:11:50.582 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125a500, dst_bp=0x01104a4a len=126
-Apr 19 10:11:50.582 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:12:07.762 MPC860: activating IDMA0
-Apr 19 10:12:07.762 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d280, dst_bp=0x01104a42 len=310
-Apr 19 10:12:07.762 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:12:08.780 MPC860: activating IDMA0
-Apr 19 10:12:08.780 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258b00, dst_bp=0x01104a4a len=106
-Apr 19 10:12:08.781 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:12:08.781 MPC860: activating IDMA0
-Apr 19 10:12:08.781 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259180, dst_bp=0x012b882a len=106
-Apr 19 10:12:08.781 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:12:15.908 MPC860: activating IDMA0
-Apr 19 10:12:15.908 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257e00, dst_bp=0x012b882a len=186
-Apr 19 10:12:15.908 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:12:15.908 MPC860: activating IDMA0
-Apr 19 10:12:15.909 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259800, dst_bp=0x01104a4a len=186
-Apr 19 10:12:15.909 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:12:44.220 MPC860: activating IDMA0
-Apr 19 10:12:44.220 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257100, dst_bp=0x01104a4a len=186
-Apr 19 10:12:44.220 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:12:44.220 MPC860: activating IDMA0
-Apr 19 10:12:44.220 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257780, dst_bp=0x012b882a len=186
-Apr 19 10:12:44.220 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:13:07.772 MPC860: activating IDMA0
-Apr 19 10:13:07.772 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258480, dst_bp=0x012b8822 len=310
-Apr 19 10:13:07.772 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:13:10.118 MPC860: activating IDMA0
-Apr 19 10:13:10.119 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255d80, dst_bp=0x012b882a len=186
-Apr 19 10:13:10.119 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:13:10.119 MPC860: activating IDMA0
-Apr 19 10:13:10.119 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255700, dst_bp=0x01104a4a len=186
-Apr 19 10:13:10.119 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:13:38.476 MPC860: activating IDMA0
-Apr 19 10:13:38.477 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255080, dst_bp=0x01104a4a len=186
-Apr 19 10:13:38.479 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:13:38.481 MPC860: activating IDMA0
-Apr 19 10:13:38.481 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256a80, dst_bp=0x01104a4a len=186
-Apr 19 10:13:38.481 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:14:04.048 MPC860: activating IDMA0
-Apr 19 10:14:04.048 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254380, dst_bp=0x01104a4a len=186
-Apr 19 10:14:04.048 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:14:04.049 MPC860: activating IDMA0
-Apr 19 10:14:04.049 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253d00, dst_bp=0x012b882a len=186
-Apr 19 10:14:04.049 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:14:08.001 MPC860: activating IDMA0
-Apr 19 10:14:08.002 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253680, dst_bp=0x012b8822 len=310
-Apr 19 10:14:08.002 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:14:32.657 MPC860: activating IDMA0
-Apr 19 10:14:32.657 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256400, dst_bp=0x012b882a len=186
-Apr 19 10:14:32.657 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:14:32.657 MPC860: activating IDMA0
-Apr 19 10:14:32.657 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254a00, dst_bp=0x01104a4a len=186
-Apr 19 10:14:32.658 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:14:56.261 MPC860: activating IDMA0
-Apr 19 10:14:56.261 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253000, dst_bp=0x01104a4a len=106
-Apr 19 10:14:56.261 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:14:56.262 MPC860: activating IDMA0
-Apr 19 10:14:56.262 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251c80, dst_bp=0x01104a4a len=106
-Apr 19 10:14:56.262 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:01.943 MPC860: activating IDMA0
-Apr 19 10:15:01.944 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252980, dst_bp=0x01104a4a len=186
-Apr 19 10:15:01.944 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:01.945 MPC860: activating IDMA0
-Apr 19 10:15:01.945 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252300, dst_bp=0x01104a4a len=186
-Apr 19 10:15:01.945 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:07.792 MPC860: activating IDMA0
-Apr 19 10:15:07.793 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251600, dst_bp=0x01104a42 len=310
-Apr 19 10:15:07.793 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:09.924 MPC860: activating IDMA0
-Apr 19 10:15:09.924 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250f80, dst_bp=0x012b5caa len=66
-Apr 19 10:15:09.924 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:09.924 MPC860: activating IDMA0
-Apr 19 10:15:09.924 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124fc00, dst_bp=0x012b5a2a len=66
-Apr 19 10:15:09.924 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:19.564 MPC860: activating IDMA0
-Apr 19 10:15:19.565 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250900, dst_bp=0x012b5caa len=66
-Apr 19 10:15:19.565 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:19.565 MPC860: activating IDMA0
-Apr 19 10:15:19.565 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250280, dst_bp=0x012b5a2a len=66
-Apr 19 10:15:19.565 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:27.805 MPC860: activating IDMA0
-Apr 19 10:15:27.805 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124f580, dst_bp=0x01104a4a len=186
-Apr 19 10:15:27.805 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:27.806 MPC860: activating IDMA0
-Apr 19 10:15:27.806 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ef00, dst_bp=0x012b882a len=186
-Apr 19 10:15:27.806 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:57.574 MPC860: activating IDMA0
-Apr 19 10:15:57.575 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124db80, dst_bp=0x012b882a len=146
-Apr 19 10:15:57.575 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:15:57.575 MPC860: activating IDMA0
-Apr 19 10:15:57.575 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e880, dst_bp=0x01104a4a len=146
-Apr 19 10:15:57.575 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:16:07.819 MPC860: activating IDMA0
-Apr 19 10:16:07.819 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ce80, dst_bp=0x01104a42 len=310
-Apr 19 10:16:07.820 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:16:24.808 MPC860: activating IDMA0
-Apr 19 10:16:24.809 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e200, dst_bp=0x01104a4a len=126
-Apr 19 10:16:24.809 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:16:24.809 MPC860: activating IDMA0
-Apr 19 10:16:24.809 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124d500, dst_bp=0x012b882a len=126
-Apr 19 10:16:24.809 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:16:50.866 MPC860: activating IDMA0
-Apr 19 10:16:50.866 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124bb00, dst_bp=0x012b882a len=126
-Apr 19 10:16:50.866 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:16:50.866 MPC860: activating IDMA0
-Apr 19 10:16:50.866 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x01104a4a len=126
-Apr 19 10:16:50.866 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:17:07.794 MPC860: activating IDMA0
-Apr 19 10:17:07.794 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124b480, dst_bp=0x01104a42 len=310
-Apr 19 10:17:07.795 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:17:16.209 MPC860: activating IDMA0
-Apr 19 10:17:16.210 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c800, dst_bp=0x01104a4a len=126
-Apr 19 10:17:16.210 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:17:16.213 MPC860: activating IDMA0
-Apr 19 10:17:16.213 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264780, dst_bp=0x01104a4a len=126
-Apr 19 10:17:16.214 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:17:43.369 MPC860: activating IDMA0
-Apr 19 10:17:43.369 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265480, dst_bp=0x01104a4a len=126
-Apr 19 10:17:43.369 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:17:43.370 MPC860: activating IDMA0
-Apr 19 10:17:43.371 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264e00, dst_bp=0x01104a4a len=126
-Apr 19 10:17:43.371 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:18:08.124 MPC860: activating IDMA0
-Apr 19 10:18:08.124 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264100, dst_bp=0x01104a42 len=310
-Apr 19 10:18:08.124 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:18:13.197 MPC860: activating IDMA0
-Apr 19 10:18:13.198 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c180, dst_bp=0x01104a4a len=126
-Apr 19 10:18:13.198 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:18:13.198 MPC860: activating IDMA0
-Apr 19 10:18:13.198 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263a80, dst_bp=0x012b882a len=126
-Apr 19 10:18:13.198 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:18:42.870 MPC860: activating IDMA0
-Apr 19 10:18:42.870 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263400, dst_bp=0x012b882a len=126
-Apr 19 10:18:42.871 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:18:42.871 MPC860: activating IDMA0
-Apr 19 10:18:42.871 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262d80, dst_bp=0x012b882a len=126
-Apr 19 10:18:42.871 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:19:07.853 MPC860: activating IDMA0
-Apr 19 10:19:07.853 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262080, dst_bp=0x012b8822 len=310
-Apr 19 10:19:07.854 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:19:08.979 MPC860: activating IDMA0
-Apr 19 10:19:08.979 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262700, dst_bp=0x012b882a len=126
-Apr 19 10:19:08.979 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:19:08.981 MPC860: activating IDMA0
-Apr 19 10:19:08.981 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260680, dst_bp=0x01104a4a len=126
-Apr 19 10:19:08.981 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:19:38.337 MPC860: activating IDMA0
-Apr 19 10:19:38.337 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260000, dst_bp=0x01104a4a len=126
-Apr 19 10:19:38.337 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:19:38.338 MPC860: activating IDMA0
-Apr 19 10:19:38.338 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260d00, dst_bp=0x01104a4a len=126
-Apr 19 10:19:38.338 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:20:05.156 MPC860: activating IDMA0
-Apr 19 10:20:05.156 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261380, dst_bp=0x01104a4a len=126
-Apr 19 10:20:05.157 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:20:05.157 MPC860: activating IDMA0
-Apr 19 10:20:05.157 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ec80, dst_bp=0x012b882a len=126
-Apr 19 10:20:05.157 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:20:07.841 MPC860: activating IDMA0
-Apr 19 10:20:07.841 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125e600, dst_bp=0x012b8822 len=310
-Apr 19 10:20:07.841 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:20:31.689 MPC860: activating IDMA0
-Apr 19 10:20:31.689 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261a00, dst_bp=0x012b882a len=126
-Apr 19 10:20:31.689 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:20:31.690 MPC860: activating IDMA0
-Apr 19 10:20:31.690 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f980, dst_bp=0x01104a4a len=126
-Apr 19 10:20:31.690 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:20:57.525 MPC860: activating IDMA0
-Apr 19 10:20:57.525 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125df80, dst_bp=0x01104a4a len=126
-Apr 19 10:20:57.526 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:20:57.526 MPC860: activating IDMA0
-Apr 19 10:20:57.526 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125cc00, dst_bp=0x012b882a len=126
-Apr 19 10:20:57.526 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:21:07.835 MPC860: activating IDMA0
-Apr 19 10:21:07.835 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125c580, dst_bp=0x012b8822 len=310
-Apr 19 10:21:07.835 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:21:23.616 MPC860: activating IDMA0
-Apr 19 10:21:23.617 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125bf00, dst_bp=0x012b882a len=126
-Apr 19 10:21:23.617 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:21:23.617 MPC860: activating IDMA0
-Apr 19 10:21:23.617 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d900, dst_bp=0x01104a4a len=126
-Apr 19 10:21:23.617 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:21:52.121 MPC860: activating IDMA0
-Apr 19 10:21:52.121 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b200, dst_bp=0x01104a4a len=126
-Apr 19 10:21:52.121 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:21:52.221 MPC860: activating IDMA0
-Apr 19 10:21:52.221 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ab80, dst_bp=0x01104a4a len=126
-Apr 19 10:21:52.221 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:22:07.859 MPC860: activating IDMA0
-Apr 19 10:22:07.859 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b880, dst_bp=0x01104a42 len=310
-Apr 19 10:22:07.859 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:22:17.638 MPC860: activating IDMA0
-Apr 19 10:22:17.638 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f300, dst_bp=0x01104a4a len=126
-Apr 19 10:22:17.638 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:22:17.638 MPC860: activating IDMA0
-Apr 19 10:22:17.638 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125a500, dst_bp=0x012b882a len=126
-Apr 19 10:22:17.638 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:22:43.213 MPC860: activating IDMA0
-Apr 19 10:22:43.213 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d280, dst_bp=0x012b882a len=126
-Apr 19 10:22:43.213 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:22:43.214 MPC860: activating IDMA0
-Apr 19 10:22:43.214 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258b00, dst_bp=0x01104a4a len=126
-Apr 19 10:22:43.214 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:23:07.872 MPC860: activating IDMA0
-Apr 19 10:23:07.872 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259180, dst_bp=0x01104a42 len=310
-Apr 19 10:23:07.872 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:23:12.032 MPC860: activating IDMA0
-Apr 19 10:23:12.032 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259e80, dst_bp=0x01104a4a len=126
-Apr 19 10:23:12.032 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:23:12.033 MPC860: activating IDMA0
-Apr 19 10:23:12.036 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259800, dst_bp=0x01104a4a len=126
-Apr 19 10:23:12.036 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:23:41.203 MPC860: activating IDMA0
-Apr 19 10:23:41.203 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257e00, dst_bp=0x01104a4a len=126
-Apr 19 10:23:41.203 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:23:41.203 MPC860: activating IDMA0
-Apr 19 10:23:41.204 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257780, dst_bp=0x01104a4a len=126
-Apr 19 10:23:41.204 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:24:06.787 MPC860: activating IDMA0
-Apr 19 10:24:06.787 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258480, dst_bp=0x01104a4a len=126
-Apr 19 10:24:06.787 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:24:06.787 MPC860: activating IDMA0
-Apr 19 10:24:06.787 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257100, dst_bp=0x012b882a len=126
-Apr 19 10:24:06.787 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:24:07.873 MPC860: activating IDMA0
-Apr 19 10:24:07.873 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255700, dst_bp=0x012b8822 len=310
-Apr 19 10:24:07.873 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:24:34.877 MPC860: activating IDMA0
-Apr 19 10:24:34.877 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255080, dst_bp=0x012b882a len=126
-Apr 19 10:24:34.878 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:24:34.879 MPC860: activating IDMA0
-Apr 19 10:24:34.879 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256a80, dst_bp=0x012b882a len=126
-Apr 19 10:24:34.879 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:25:00.695 MPC860: activating IDMA0
-Apr 19 10:25:00.696 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255d80, dst_bp=0x012b882a len=126
-Apr 19 10:25:00.696 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:25:00.696 MPC860: activating IDMA0
-Apr 19 10:25:00.696 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253d00, dst_bp=0x01104a4a len=126
-Apr 19 10:25:00.697 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:25:07.872 MPC860: activating IDMA0
-Apr 19 10:25:07.872 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253680, dst_bp=0x01104a42 len=310
-Apr 19 10:25:07.872 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:25:27.967 MPC860: activating IDMA0
-Apr 19 10:25:27.967 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254380, dst_bp=0x01104a4a len=126
-Apr 19 10:25:27.967 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:25:27.968 MPC860: activating IDMA0
-Apr 19 10:25:27.968 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254a00, dst_bp=0x012b882a len=126
-Apr 19 10:25:27.968 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:25:53.943 MPC860: activating IDMA0
-Apr 19 10:25:53.944 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253000, dst_bp=0x012b882a len=126
-Apr 19 10:25:53.944 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:25:53.944 MPC860: activating IDMA0
-Apr 19 10:25:53.944 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251c80, dst_bp=0x01104a4a len=126
-Apr 19 10:25:53.944 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:26:07.871 MPC860: activating IDMA0
-Apr 19 10:26:07.871 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252980, dst_bp=0x01104a42 len=310
-Apr 19 10:26:07.871 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:26:21.635 MPC860: activating IDMA0
-Apr 19 10:26:21.635 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252300, dst_bp=0x01104a4a len=126
-Apr 19 10:26:21.635 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:26:21.636 MPC860: activating IDMA0
-Apr 19 10:26:21.636 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251600, dst_bp=0x01104a4a len=126
-Apr 19 10:26:21.636 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:26:48.051 MPC860: activating IDMA0
-Apr 19 10:26:48.051 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256400, dst_bp=0x01104a4a len=126
-Apr 19 10:26:48.051 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:26:48.051 MPC860: activating IDMA0
-Apr 19 10:26:48.051 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124fc00, dst_bp=0x012b882a len=126
-Apr 19 10:26:48.052 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:27:07.879 MPC860: activating IDMA0
-Apr 19 10:27:07.880 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250900, dst_bp=0x012b8822 len=310
-Apr 19 10:27:07.880 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:27:13.883 MPC860: activating IDMA0
-Apr 19 10:27:13.883 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250280, dst_bp=0x012b882a len=126
-Apr 19 10:27:13.883 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:27:13.883 MPC860: activating IDMA0
-Apr 19 10:27:13.883 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250f80, dst_bp=0x012b882a len=126
-Apr 19 10:27:13.884 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:27:40.773 MPC860: activating IDMA0
-Apr 19 10:27:40.773 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ef00, dst_bp=0x012b882a len=126
-Apr 19 10:27:40.773 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:27:40.774 MPC860: activating IDMA0
-Apr 19 10:27:40.774 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124f580, dst_bp=0x012b882a len=126
-Apr 19 10:27:40.774 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:28:07.931 MPC860: activating IDMA0
-Apr 19 10:28:07.931 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e880, dst_bp=0x012b8822 len=310
-Apr 19 10:28:07.931 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:28:09.245 MPC860: activating IDMA0
-Apr 19 10:28:09.245 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ce80, dst_bp=0x012b882a len=126
-Apr 19 10:28:09.246 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:28:09.248 MPC860: activating IDMA0
-Apr 19 10:28:09.248 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124db80, dst_bp=0x012b882a len=126
-Apr 19 10:28:09.249 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:28:35.530 MPC860: activating IDMA0
-Apr 19 10:28:35.530 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124d500, dst_bp=0x012b882a len=126
-Apr 19 10:28:35.530 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:28:35.530 MPC860: activating IDMA0
-Apr 19 10:28:35.530 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e200, dst_bp=0x01104a4a len=126
-Apr 19 10:28:35.530 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:29:03.345 MPC860: activating IDMA0
-Apr 19 10:29:03.346 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x01104a4a len=126
-Apr 19 10:29:03.346 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:29:03.347 MPC860: activating IDMA0
-Apr 19 10:29:03.347 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124b480, dst_bp=0x01104a4a len=126
-Apr 19 10:29:03.347 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:29:07.893 MPC860: activating IDMA0
-Apr 19 10:29:07.893 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c800, dst_bp=0x01104a42 len=310
-Apr 19 10:29:07.894 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:29:28.941 MPC860: activating IDMA0
-Apr 19 10:29:28.941 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264780, dst_bp=0x01104a4a len=126
-Apr 19 10:29:28.941 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:29:28.944 MPC860: activating IDMA0
-Apr 19 10:29:28.944 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265480, dst_bp=0x01104a4a len=126
-Apr 19 10:29:28.945 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:29:58.857 MPC860: activating IDMA0
-Apr 19 10:29:58.857 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264e00, dst_bp=0x01104a4a len=126
-Apr 19 10:29:58.857 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:29:58.857 MPC860: activating IDMA0
-Apr 19 10:29:58.857 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264100, dst_bp=0x012b882a len=126
-Apr 19 10:29:58.857 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:30:07.935 MPC860: activating IDMA0
-Apr 19 10:30:07.935 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124bb00, dst_bp=0x012b8822 len=310
-Apr 19 10:30:07.935 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:30:25.691 MPC860: activating IDMA0
-Apr 19 10:30:25.691 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263a80, dst_bp=0x012b882a len=126
-Apr 19 10:30:25.692 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:30:25.692 MPC860: activating IDMA0
-Apr 19 10:30:25.693 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263400, dst_bp=0x01104a4a len=126
-Apr 19 10:30:25.693 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:30:54.425 MPC860: activating IDMA0
-Apr 19 10:30:54.425 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262d80, dst_bp=0x01104a4a len=126
-Apr 19 10:30:54.425 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:30:54.426 MPC860: activating IDMA0
-Apr 19 10:30:54.427 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262080, dst_bp=0x01104a4a len=126
-Apr 19 10:30:54.427 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:31:07.911 MPC860: activating IDMA0
-Apr 19 10:31:07.912 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262700, dst_bp=0x01104a42 len=310
-Apr 19 10:31:07.912 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:31:22.644 MPC860: activating IDMA0
-Apr 19 10:31:22.644 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260680, dst_bp=0x01104a4a len=126
-Apr 19 10:31:22.644 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:31:22.645 MPC860: activating IDMA0
-Apr 19 10:31:22.645 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260000, dst_bp=0x01104a4a len=126
-Apr 19 10:31:22.645 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:31:50.157 MPC860: activating IDMA0
-Apr 19 10:31:50.157 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260d00, dst_bp=0x01104a4a len=126
-Apr 19 10:31:50.158 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:31:50.158 MPC860: activating IDMA0
-Apr 19 10:31:50.158 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c180, dst_bp=0x012b882a len=126
-Apr 19 10:31:50.158 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:32:07.925 MPC860: activating IDMA0
-Apr 19 10:32:07.925 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ec80, dst_bp=0x012b8822 len=310
-Apr 19 10:32:07.926 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:32:16.617 MPC860: activating IDMA0
-Apr 19 10:32:16.617 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125e600, dst_bp=0x012b882a len=126
-Apr 19 10:32:16.617 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:32:16.618 MPC860: activating IDMA0
-Apr 19 10:32:16.618 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261380, dst_bp=0x01104a4a len=126
-Apr 19 10:32:16.618 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:32:42.149 MPC860: activating IDMA0
-Apr 19 10:32:42.149 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f980, dst_bp=0x01104a4a len=126
-Apr 19 10:32:42.149 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:32:42.150 MPC860: activating IDMA0
-Apr 19 10:32:42.150 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261a00, dst_bp=0x012b882a len=126
-Apr 19 10:32:42.150 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:33:07.920 MPC860: activating IDMA0
-Apr 19 10:33:07.920 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125cc00, dst_bp=0x012b8822 len=310
-Apr 19 10:33:07.920 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:33:11.306 MPC860: activating IDMA0
-Apr 19 10:33:11.306 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125c580, dst_bp=0x012b882a len=126
-Apr 19 10:33:11.306 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:33:11.306 MPC860: activating IDMA0
-Apr 19 10:33:11.306 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125df80, dst_bp=0x01104a4a len=126
-Apr 19 10:33:11.306 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:33:38.254 MPC860: activating IDMA0
-Apr 19 10:33:38.254 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d900, dst_bp=0x01104a4a len=126
-Apr 19 10:33:38.254 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:33:38.254 MPC860: activating IDMA0
-Apr 19 10:33:38.254 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b200, dst_bp=0x012b882a len=126
-Apr 19 10:33:38.254 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:34:07.472 MPC860: activating IDMA0
-Apr 19 10:34:07.472 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ab80, dst_bp=0x012b882a len=126
-Apr 19 10:34:07.472 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:34:07.473 MPC860: activating IDMA0
-Apr 19 10:34:07.473 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b880, dst_bp=0x012b882a len=126
-Apr 19 10:34:07.473 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:34:07.950 MPC860: activating IDMA0
-Apr 19 10:34:07.950 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125bf00, dst_bp=0x012b8822 len=310
-Apr 19 10:34:07.950 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:34:34.504 MPC860: activating IDMA0
-Apr 19 10:34:34.504 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125a500, dst_bp=0x012b882a len=126
-Apr 19 10:34:34.504 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:34:34.505 MPC860: activating IDMA0
-Apr 19 10:34:34.505 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f300, dst_bp=0x012b882a len=126
-Apr 19 10:34:34.506 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:35:02.187 MPC860: activating IDMA0
-Apr 19 10:35:02.187 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258b00, dst_bp=0x012b882a len=126
-Apr 19 10:35:02.188 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:35:02.189 MPC860: activating IDMA0
-Apr 19 10:35:02.189 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259180, dst_bp=0x012b882a len=126
-Apr 19 10:35:02.190 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:35:07.971 MPC860: activating IDMA0
-Apr 19 10:35:07.971 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259e80, dst_bp=0x012b8822 len=310
-Apr 19 10:35:07.971 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:35:32.131 MPC860: activating IDMA0
-Apr 19 10:35:32.132 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259800, dst_bp=0x012b882a len=126
-Apr 19 10:35:32.132 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:35:32.132 MPC860: activating IDMA0
-Apr 19 10:35:32.132 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257e00, dst_bp=0x01104a4a len=126
-Apr 19 10:35:32.132 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:35:59.661 MPC860: activating IDMA0
-Apr 19 10:35:59.661 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257780, dst_bp=0x01104a4a len=126
-Apr 19 10:35:59.662 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:35:59.662 MPC860: activating IDMA0
-Apr 19 10:35:59.662 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d280, dst_bp=0x012b882a len=126
-Apr 19 10:35:59.662 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
-Apr 19 10:36:07.993 MPC860: activating IDMA0
-Apr 19 10:36:07.993 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257100, dst_bp=0x012b8822 len=310
-Apr 19 10:36:07.993 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:09:46.131 VTTY: Console port: waiting connection on tcp port 3016 (FD 93)
+Apr 20 16:09:47.307 C2600_BOOT: starting instance (CPU0 PC=0xfff00100,idle_pc=0x803553bc,JIT on)
+Apr 20 16:09:47.307 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Apr 20 16:09:47.462 ROM: Microcode has started.
+Apr 20 16:09:47.486 CPU0: IO_FPGA: read from unknown addr 0x18, pc=0x800a9e1c (size=1)
+Apr 20 16:09:47.486 CPU0: MPC860: read from unknown addr 0xabc, pc=0x800a9e34 (size=4)
+Apr 20 16:09:47.486 CPU0: MPC860: read from unknown addr 0xab8, pc=0x800a9e40 (size=4)
+Apr 20 16:09:47.486 CPU0: MPC860: read from unknown addr 0xac2, pc=0x800a9e4c (size=2)
+Apr 20 16:09:47.486 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a9e58 (size=4)
+Apr 20 16:09:47.486 CPU0: MPC860: write to addr 0xabc, value=0x0, pc=0x800a9e6c (size=4)
+Apr 20 16:09:47.486 CPU0: MPC860: write to addr 0xac2, value=0x0, pc=0x800a9e74 (size=2)
+Apr 20 16:09:47.486 CPU0: MPC860: write to addr 0xab8, value=0x30006, pc=0x800a9e88 (size=4)
+Apr 20 16:09:47.486 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a9e90 (size=4)
+Apr 20 16:09:47.487 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.487 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.487 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.487 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.487 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.487 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.488 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.489 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: write to addr 0xac4, value=0x4, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.490 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.491 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.492 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.497 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.498 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.499 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.499 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.499 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.499 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.499 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.499 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.499 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.500 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.501 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.501 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.501 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.501 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.501 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.501 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.501 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.502 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.503 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.504 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.505 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.506 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.507 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8e18 (size=4)
+Apr 20 16:09:47.507 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.507 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: write to addr 0xac4, value=0x10000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.508 CPU0: MPC860: write to addr 0xac4, value=0x2, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.509 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.509 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.509 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.509 CPU0: MPC860: write to addr 0xac4, value=0x0, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.509 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a8dcc (size=4)
+Apr 20 16:09:47.509 CPU0: MPC860: write to addr 0xac4, value=0x20000, pc=0x800a8e08 (size=4)
+Apr 20 16:09:47.509 CPU0: MPC860: read from unknown addr 0xac4, pc=0x800a9ed0 (size=4)
+Apr 20 16:09:47.509 CPU0: MPC860: write to addr 0xac4, value=0x20000, pc=0x800a9ed8 (size=4)
+Apr 20 16:09:47.509 CPU0: IO_FPGA: write to unknown addr 0x18, value=0x0, pc=0x800a9f20 (size=1)
+Apr 20 16:09:47.509 CPU0: MPC860: write to addr 0xabc, value=0x0, pc=0x800a9f40 (size=4)
+Apr 20 16:09:47.509 CPU0: MPC860: write to addr 0xab8, value=0x0, pc=0x800a9f4c (size=4)
+Apr 20 16:09:47.510 CPU0: MPC860: write to addr 0xac2, value=0x0, pc=0x800a9f58 (size=2)
+Apr 20 16:09:47.510 CPU0: MPC860: write to addr 0xac4, value=0x20000, pc=0x800a9f64 (size=4)
+Apr 20 16:09:47.649 CPU0: MPC860: write to addr 0x18, value=0xffff, pc=0x803767a4 (size=4)
+Apr 20 16:09:47.650 CPU0: MPC860: write to addr 0x244, value=0x1790000, pc=0x80352054 (size=4)
+Apr 20 16:09:47.651 CPU0: MTS: read  access to undefined address 0x6800f000 at ia=0x803845dc (size=4)
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0x4, value=0x2800147, pc=0x80383d00
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0xc, value=0xf808, pc=0x80383d14
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0x10, value=0x1000000, pc=0x80383d24
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0x14, value=0x1fff001, pc=0x80383d38
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0x800, value=0xd0003, pc=0x80383d4c
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0x100, value=0x8a000080, pc=0x80383d60
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0x104, value=0x0, pc=0x80383d70
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0x110, value=0x0, pc=0x80383d7c
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0x604, value=0x0, pc=0x80383d88
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0x608, value=0x0, pc=0x80383d94
+Apr 20 16:09:47.652 CPU0: c2600_pci: write to addr 0xf00, value=0x80000000, pc=0x80383da4
+Apr 20 16:09:47.653 CPU0: c2600_pci: write to addr 0xf04, value=0xf1, pc=0x80383db4
+Apr 20 16:09:47.653 CPU0: c2600_pci: write to addr 0xf10, value=0x80000000, pc=0x80383dc0
+Apr 20 16:09:47.653 CPU0: c2600_pci: write to addr 0xf14, value=0xf1, pc=0x80383dcc
+Apr 20 16:09:47.653 CPU0: c2600_pci: write to addr 0xf80, value=0x81000000, pc=0x80383ddc
+Apr 20 16:09:47.671 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c70 (size=4)
+Apr 20 16:09:47.671 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c78 (size=4)
+Apr 20 16:09:47.671 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c7c (size=4)
+Apr 20 16:09:47.671 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c84 (size=4)
+Apr 20 16:09:47.672 ROM: unhandled syscall 0x0000003e at pc=0x00000000 (a1=0x00000000,a2=0x00000000,a3=0x00000000)
+Apr 20 16:09:47.672 CPU0: NS16552: write to addr 0x3, value=0x7, pc=0x8037a4a8 (size=1)
+Apr 20 16:09:47.672 CPU0: NS16552: write to addr 0x4, value=0x3, pc=0x8037a4d4 (size=1)
+Apr 20 16:09:47.672 ROM: unhandled syscall 0x00000047 at pc=0x00000000 (a1=0x00000c44,a2=0x00000000,a3=0x00000002)
+Apr 20 16:09:47.845 CPU0: MPC860: write to addr 0x980, value=0x0, pc=0x80380420 (size=2)
+Apr 20 16:09:47.847 ROM: trying to read bootvar 'BOOT'
+Apr 20 16:09:47.847 ROM: trying to read bootvar 'CONFIG_FILE'
+Apr 20 16:09:47.848 ROM: trying to read bootvar 'BOOTLDR'
+Apr 20 16:09:47.848 ROM: trying to read bootvar 'RSHELF'
+Apr 20 16:09:47.848 ROM: trying to read bootvar 'DSHELF'
+Apr 20 16:09:47.848 ROM: trying to read bootvar 'DSHELFINFO'
+Apr 20 16:09:47.848 ROM: trying to read bootvar 'RESET_COUNTER'
+Apr 20 16:09:47.849 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Apr 20 16:09:47.888 CPU0: MPC860: read from unknown addr 0x0, pc=0x80374664 (size=4)
+Apr 20 16:09:47.888 CPU0: MPC860: write to addr 0x0, value=0x0, pc=0x8037466c (size=4)
+Apr 20 16:09:47.888 CPU0: MPC860: write to addr 0x30, value=0x0, pc=0x80374674 (size=4)
+Apr 20 16:09:47.888 CPU0: MPC860: write to addr 0x940, value=0x7f00, pc=0x8037467c (size=4)
+Apr 20 16:09:47.888 CPU0: MPC860: read from unknown addr 0x940, pc=0x80374680 (size=4)
+Apr 20 16:09:47.888 CPU0: MPC860: write to addr 0x940, value=0x360000, pc=0x80374688 (size=4)
+Apr 20 16:09:47.889 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c70 (size=4)
+Apr 20 16:09:47.889 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c78 (size=4)
+Apr 20 16:09:47.889 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c7c (size=4)
+Apr 20 16:09:47.889 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c84 (size=4)
+Apr 20 16:09:47.889 CPU0: MPC860: read from unknown addr 0x940, pc=0x803746cc (size=4)
+Apr 20 16:09:47.889 CPU0: MPC860: write to addr 0x940, value=0x80, pc=0x803746d4 (size=4)
+Apr 20 16:09:47.889 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c70 (size=4)
+Apr 20 16:09:47.889 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c78 (size=4)
+Apr 20 16:09:47.889 CPU0: MPC860: read from unknown addr 0x18, pc=0x80376c7c (size=4)
+Apr 20 16:09:47.890 CPU0: MPC860: write to addr 0x18, value=0x0, pc=0x80376c84 (size=4)
+Apr 20 16:09:47.921 CPU0: MPC860: read from unknown addr 0x9c0, pc=0x803777e8 (size=2)
+Apr 20 16:09:47.959 CPU0: MPC860: write to addr 0x9c0, value=0x511, pc=0x803777f4 (size=2)
+Apr 20 16:09:47.959 CPU0: MPC860: read from unknown addr 0x9c4, pc=0x8037dda0 (size=2)
+Apr 20 16:09:47.959 CPU0: MPC860: write to addr 0x9c4, value=0x0, pc=0x8037dda8 (size=2)
+Apr 20 16:09:47.959 CPU0: MPC860: read from unknown addr 0x9c4, pc=0x8037ddac (size=2)
+Apr 20 16:09:47.959 CPU0: MPC860: write to addr 0x9c4, value=0x60, pc=0x8037ddb4 (size=2)
+Apr 20 16:09:47.969 CPU0: flash0: default write case at offset=0x0000000, val=0xc3c3c3c3
+Apr 20 16:09:47.984 CPU0: PCI: read request at pc=0x80383f10: bus=0,device=0,function=0,reg=0x00
+Apr 20 16:09:47.984 CPU0: PCI: write request (data=0x40000000) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x14
+Apr 20 16:09:47.984 CISCO2600-MB-2FE(0): registers are mapped at 0x40000000
+Apr 20 16:09:47.984 CPU0: PCI: write request (data=0x00000006) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x04
+Apr 20 16:09:47.985 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x0c
+Apr 20 16:09:47.985 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=0,function=0,reg=0x0c
+Apr 20 16:09:48.003 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 20 16:09:48.003 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 20 16:09:48.003 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 20 16:09:48.003 CPU0: PCI: read request at pc=0x80383f10: bus=0,device=1,function=0,reg=0x00
+Apr 20 16:09:48.003 CPU0: PCI: write request (data=0x40100000) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x14
+Apr 20 16:09:48.004 CISCO2600-MB-2FE(0): registers are mapped at 0x40100000
+Apr 20 16:09:48.004 CPU0: PCI: write request (data=0x00000006) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x04
+Apr 20 16:09:48.004 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x0c
+Apr 20 16:09:48.004 CPU0: PCI: write request (data=0x00004000) at pc=0x80383e60: bus=0,device=1,function=0,reg=0x0c
+Apr 20 16:09:48.009 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
+Apr 20 16:09:48.009 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
+Apr 20 16:09:48.009 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 20 16:09:48.017 CPU0: JIT: partial JIT flush (count=210)
+Apr 20 16:09:48.030 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 20 16:09:48.030 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 20 16:09:48.030 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 20 16:09:48.030 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
+Apr 20 16:09:48.031 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
+Apr 20 16:09:48.031 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 20 16:09:48.122 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 20 16:09:48.123 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 20 16:09:48.123 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 20 16:09:48.123 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
+Apr 20 16:09:48.127 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
+Apr 20 16:09:48.127 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 20 16:09:48.172 CPU0: JIT: flushing data structures (compiled pages=272)
+Apr 20 16:09:48.522 CPU0: JIT: partial JIT flush (count=246)
+Apr 20 16:09:49.453 CPU0: NS16552: read from addr 0xb, pc=0x8037a378 (size=1)
+Apr 20 16:09:49.454 CPU0: NS16552: write to addr 0xb, value=0x80, pc=0x8037a380 (size=1)
+Apr 20 16:09:49.454 CPU0: NS16552: write to addr 0xb, value=0x0, pc=0x8037a390 (size=1)
+Apr 20 16:09:49.454 CPU0: NS16552: write to addr 0xb, value=0x7, pc=0x8037a4a8 (size=1)
+Apr 20 16:09:49.454 CPU0: NS16552: write to addr 0xc, value=0x3, pc=0x8037a4d4 (size=1)
+Apr 20 16:09:49.460 ROM: unhandled syscall 0x0000001a at pc=0x00000000 (a1=0x00000000,a2=0x809e68ec,a3=0x00000000)
+Apr 20 16:09:49.460 ROM: unhandled syscall 0x00000009 at pc=0x00000000 (a1=0x00000c44,a2=0x00000000,a3=0x00000002)
+Apr 20 16:09:49.476 MPC860: activating IDMA0
+Apr 20 16:09:49.476 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01199aa0, dst_bp=0x012b6cea len=60
+Apr 20 16:09:49.476 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:09:49.480 MPC860: activating IDMA0
+Apr 20 16:09:49.480 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119a120, dst_bp=0x012b6baa len=66
+Apr 20 16:09:49.480 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:09:49.482 MPC860: activating IDMA0
+Apr 20 16:09:49.482 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119a7a0, dst_bp=0x012b6a6a len=60
+Apr 20 16:09:49.482 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:09:49.531 CPU0: JIT: flushing data structures (compiled pages=279)
+Apr 20 16:09:49.989 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 20 16:09:49.989 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 20 16:09:49.989 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 20 16:09:50.041 CISCO2600-MB-2FE(0): fetching init block at address 0x01266180
+Apr 20 16:09:50.041 CISCO2600-MB-2FE(0): rx_ring = 0x012661e0 (64), tx_ring = 0x01266620 (128)
+Apr 20 16:09:50.041 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 20 16:09:50.117 CPU0: JIT: partial JIT flush (count=224)
+Apr 20 16:09:50.223 CISCO2600-MB-2FE(0): fetching init block at address 0x01217460
+Apr 20 16:09:50.223 CISCO2600-MB-2FE(0): rx_ring = 0x012174c0 (64), tx_ring = 0x01217900 (128)
+Apr 20 16:09:50.223 CISCO2600-MB-2FE(0): CSR0 = 0x0101
+Apr 20 16:09:52.604 MPC860: activating IDMA0
+Apr 20 16:09:52.604 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x012b6a6a len=86
+Apr 20 16:09:52.604 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:09:52.604 MPC860: activating IDMA0
+Apr 20 16:09:52.604 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265480, dst_bp=0x012b5a2a len=86
+Apr 20 16:09:52.604 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:09:52.619 CPU0: JIT: flushing data structures (compiled pages=272)
+Apr 20 16:09:56.743 MPC860: activating IDMA0
+Apr 20 16:09:56.743 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264e00, dst_bp=0x012b882a len=106
+Apr 20 16:09:56.743 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:09:56.759 MPC860: activating IDMA0
+Apr 20 16:09:56.759 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119ae20, dst_bp=0x012b882a len=106
+Apr 20 16:09:56.759 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:09:57.029 MPC860: activating IDMA0
+Apr 20 16:09:57.029 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119b4a0, dst_bp=0x012b882a len=166
+Apr 20 16:09:57.029 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:09:57.029 MPC860: activating IDMA0
+Apr 20 16:09:57.029 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119bb20, dst_bp=0x012b8b6a len=166
+Apr 20 16:09:57.029 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:10:00.706 MPC860: activating IDMA0
+Apr 20 16:10:00.706 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119c1a0, dst_bp=0x012b6a6a len=66
+Apr 20 16:10:00.706 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:10:00.706 MPC860: activating IDMA0
+Apr 20 16:10:00.706 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119c820, dst_bp=0x012b6a6a len=66
+Apr 20 16:10:00.706 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:10:23.702 MPC860: activating IDMA0
+Apr 20 16:10:23.702 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119cea0, dst_bp=0x012b8b6a len=186
+Apr 20 16:10:23.702 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:10:23.717 MPC860: activating IDMA0
+Apr 20 16:10:23.717 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119d520, dst_bp=0x012b8b6a len=186
+Apr 20 16:10:23.717 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:10:47.006 MPC860: activating IDMA0
+Apr 20 16:10:47.006 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119dba0, dst_bp=0x012b8b62 len=310
+Apr 20 16:10:47.006 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:10:50.864 MPC860: activating IDMA0
+Apr 20 16:10:50.864 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119e220, dst_bp=0x012b8b6a len=186
+Apr 20 16:10:50.864 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:10:50.864 MPC860: activating IDMA0
+Apr 20 16:10:50.864 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119e8a0, dst_bp=0x012b8b6a len=186
+Apr 20 16:10:50.864 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:11:19.707 MPC860: activating IDMA0
+Apr 20 16:11:19.707 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119ef20, dst_bp=0x012b8b6a len=186
+Apr 20 16:11:19.723 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:11:19.723 MPC860: activating IDMA0
+Apr 20 16:11:19.723 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119f5a0, dst_bp=0x012b8b6a len=186
+Apr 20 16:11:19.723 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:11:46.596 MPC860: activating IDMA0
+Apr 20 16:11:46.596 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0119fc20, dst_bp=0x012b8b6a len=186
+Apr 20 16:11:46.596 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:11:46.596 MPC860: activating IDMA0
+Apr 20 16:11:46.596 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a02a0, dst_bp=0x012b882a len=186
+Apr 20 16:11:46.596 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:11:47.034 MPC860: activating IDMA0
+Apr 20 16:11:47.034 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a0920, dst_bp=0x012b8822 len=310
+Apr 20 16:11:47.034 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:16.277 MPC860: activating IDMA0
+Apr 20 16:12:16.277 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a0fa0, dst_bp=0x012b882a len=186
+Apr 20 16:12:16.277 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:16.277 MPC860: activating IDMA0
+Apr 20 16:12:16.277 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a1620, dst_bp=0x012b882a len=186
+Apr 20 16:12:16.277 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:16.618 MPC860: activating IDMA0
+Apr 20 16:12:16.618 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a1ca0, dst_bp=0x012b882a len=106
+Apr 20 16:12:16.618 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:16.618 MPC860: activating IDMA0
+Apr 20 16:12:16.633 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a2320, dst_bp=0x012b882a len=106
+Apr 20 16:12:16.633 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:21.097 MPC860: activating IDMA0
+Apr 20 16:12:21.097 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a29a0, dst_bp=0x012b882a len=106
+Apr 20 16:12:21.097 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:21.097 MPC860: activating IDMA0
+Apr 20 16:12:21.097 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a3020, dst_bp=0x012b8b6a len=106
+Apr 20 16:12:21.097 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:43.245 MPC860: activating IDMA0
+Apr 20 16:12:43.245 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a36a0, dst_bp=0x012b8b6a len=106
+Apr 20 16:12:43.246 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:43.246 MPC860: activating IDMA0
+Apr 20 16:12:43.247 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a3d20, dst_bp=0x012b882a len=106
+Apr 20 16:12:43.247 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:44.011 MPC860: activating IDMA0
+Apr 20 16:12:44.011 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a43a0, dst_bp=0x012b882a len=186
+Apr 20 16:12:44.011 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:44.011 MPC860: activating IDMA0
+Apr 20 16:12:44.011 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a4a20, dst_bp=0x012b882a len=186
+Apr 20 16:12:44.011 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:12:47.036 MPC860: activating IDMA0
+Apr 20 16:12:47.036 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a50a0, dst_bp=0x012b8822 len=310
+Apr 20 16:12:47.036 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:13:12.711 MPC860: activating IDMA0
+Apr 20 16:13:12.711 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a5720, dst_bp=0x012b882a len=186
+Apr 20 16:13:12.711 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:13:12.711 MPC860: activating IDMA0
+Apr 20 16:13:12.711 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a5da0, dst_bp=0x012b882a len=186
+Apr 20 16:13:12.711 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:13:39.482 MPC860: activating IDMA0
+Apr 20 16:13:39.482 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a6420, dst_bp=0x012b882a len=126
+Apr 20 16:13:39.482 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:13:39.498 MPC860: activating IDMA0
+Apr 20 16:13:39.498 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x011a6aa0, dst_bp=0x012b882a len=126
+Apr 20 16:13:39.498 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:13:47.030 MPC860: activating IDMA0
+Apr 20 16:13:47.030 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01187380, dst_bp=0x012b8822 len=310
+Apr 20 16:13:47.030 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:14:07.816 MPC860: activating IDMA0
+Apr 20 16:14:07.816 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01187a00, dst_bp=0x012b882a len=126
+Apr 20 16:14:07.816 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:14:07.816 MPC860: activating IDMA0
+Apr 20 16:14:07.816 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01188080, dst_bp=0x012b882a len=126
+Apr 20 16:14:07.816 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:14:33.538 MPC860: activating IDMA0
+Apr 20 16:14:33.538 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01188700, dst_bp=0x012b5a2a len=66
+Apr 20 16:14:33.538 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:14:33.538 MPC860: activating IDMA0
+Apr 20 16:14:33.538 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01188d80, dst_bp=0x012b5a2a len=66
+Apr 20 16:14:33.538 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:14:36.275 MPC860: activating IDMA0
+Apr 20 16:14:36.275 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01189400, dst_bp=0x012b882a len=186
+Apr 20 16:14:36.275 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:14:36.290 MPC860: activating IDMA0
+Apr 20 16:14:36.290 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01189a80, dst_bp=0x012b882a len=186
+Apr 20 16:14:36.290 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:14:37.791 MPC860: activating IDMA0
+Apr 20 16:14:37.791 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118a100, dst_bp=0x012b882a len=106
+Apr 20 16:14:37.791 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:14:37.791 MPC860: activating IDMA0
+Apr 20 16:14:37.791 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118a780, dst_bp=0x012b882a len=106
+Apr 20 16:14:37.791 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:14:47.048 MPC860: activating IDMA0
+Apr 20 16:14:47.048 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118ae00, dst_bp=0x012b8822 len=310
+Apr 20 16:14:47.048 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:15:05.031 MPC860: activating IDMA0
+Apr 20 16:15:05.031 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118b480, dst_bp=0x012b882a len=186
+Apr 20 16:15:05.031 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:15:05.031 MPC860: activating IDMA0
+Apr 20 16:15:05.031 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118bb00, dst_bp=0x012b8b6a len=186
+Apr 20 16:15:05.031 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:15:33.804 MPC860: activating IDMA0
+Apr 20 16:15:33.804 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118c180, dst_bp=0x012b8b6a len=186
+Apr 20 16:15:33.804 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:15:33.804 MPC860: activating IDMA0
+Apr 20 16:15:33.804 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118c800, dst_bp=0x012b882a len=186
+Apr 20 16:15:33.804 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:15:47.137 MPC860: activating IDMA0
+Apr 20 16:15:47.137 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118ce80, dst_bp=0x012b8822 len=310
+Apr 20 16:15:47.137 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:16:00.255 MPC860: activating IDMA0
+Apr 20 16:16:00.255 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118d500, dst_bp=0x012b882a len=186
+Apr 20 16:16:00.255 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:16:00.255 MPC860: activating IDMA0
+Apr 20 16:16:00.255 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118db80, dst_bp=0x012b8b6a len=186
+Apr 20 16:16:00.255 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:16:27.978 MPC860: activating IDMA0
+Apr 20 16:16:27.978 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118e200, dst_bp=0x012b8b6a len=186
+Apr 20 16:16:27.978 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:16:27.980 MPC860: activating IDMA0
+Apr 20 16:16:27.980 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118e880, dst_bp=0x012b8b6a len=186
+Apr 20 16:16:27.980 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:16:47.043 MPC860: activating IDMA0
+Apr 20 16:16:47.043 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118ef00, dst_bp=0x012b8b62 len=310
+Apr 20 16:16:47.043 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:16:56.457 MPC860: activating IDMA0
+Apr 20 16:16:56.457 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118f580, dst_bp=0x012b8b6a len=186
+Apr 20 16:16:56.457 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:16:56.457 MPC860: activating IDMA0
+Apr 20 16:16:56.457 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0118fc00, dst_bp=0x012b882a len=186
+Apr 20 16:16:56.457 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:25.209 MPC860: activating IDMA0
+Apr 20 16:17:25.209 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01190280, dst_bp=0x012b882a len=186
+Apr 20 16:17:25.209 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:25.209 MPC860: activating IDMA0
+Apr 20 16:17:25.209 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01190900, dst_bp=0x012b882a len=186
+Apr 20 16:17:25.209 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:38.388 MPC860: activating IDMA0
+Apr 20 16:17:38.388 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01190f80, dst_bp=0x012b882a len=106
+Apr 20 16:17:38.388 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:38.388 MPC860: activating IDMA0
+Apr 20 16:17:38.388 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01191600, dst_bp=0x012b8b6a len=106
+Apr 20 16:17:38.388 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:40.530 MPC860: activating IDMA0
+Apr 20 16:17:40.530 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01191c80, dst_bp=0x012b6a6a len=66
+Apr 20 16:17:40.530 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:40.530 MPC860: activating IDMA0
+Apr 20 16:17:40.530 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01192300, dst_bp=0x012b5a2a len=66
+Apr 20 16:17:40.530 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:47.052 MPC860: activating IDMA0
+Apr 20 16:17:47.052 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01192980, dst_bp=0x012b8b62 len=310
+Apr 20 16:17:47.052 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:48.877 MPC860: activating IDMA0
+Apr 20 16:17:48.877 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01193000, dst_bp=0x012b6a6a len=86
+Apr 20 16:17:48.877 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:48.877 MPC860: activating IDMA0
+Apr 20 16:17:48.877 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01193680, dst_bp=0x012b5a2a len=86
+Apr 20 16:17:48.877 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:51.132 MPC860: activating IDMA0
+Apr 20 16:17:51.132 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264780, dst_bp=0x012b8b6a len=186
+Apr 20 16:17:51.132 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:51.133 MPC860: activating IDMA0
+Apr 20 16:17:51.133 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264100, dst_bp=0x012b8b6a len=186
+Apr 20 16:17:51.133 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:53.012 MPC860: activating IDMA0
+Apr 20 16:17:53.012 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265480, dst_bp=0x012b6a6a len=86
+Apr 20 16:17:53.012 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:17:53.012 MPC860: activating IDMA0
+Apr 20 16:17:53.012 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264e00, dst_bp=0x012b5a2a len=86
+Apr 20 16:17:53.012 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:18:16.853 MPC860: activating IDMA0
+Apr 20 16:18:16.853 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x012b8b6a len=186
+Apr 20 16:18:16.853 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:18:16.853 MPC860: activating IDMA0
+Apr 20 16:18:16.853 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263a80, dst_bp=0x012b882a len=186
+Apr 20 16:18:16.853 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:18:44.169 MPC860: activating IDMA0
+Apr 20 16:18:44.169 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263400, dst_bp=0x012b882a len=166
+Apr 20 16:18:44.170 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:18:44.170 MPC860: activating IDMA0
+Apr 20 16:18:44.170 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262d80, dst_bp=0x012b8b6a len=166
+Apr 20 16:18:44.170 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:18:47.057 MPC860: activating IDMA0
+Apr 20 16:18:47.057 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262700, dst_bp=0x012b8b62 len=310
+Apr 20 16:18:47.057 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:19:09.867 MPC860: activating IDMA0
+Apr 20 16:19:09.867 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262080, dst_bp=0x012b8b6a len=126
+Apr 20 16:19:09.867 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:19:09.867 MPC860: activating IDMA0
+Apr 20 16:19:09.867 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261a00, dst_bp=0x012b882a len=126
+Apr 20 16:19:09.867 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:19:38.462 MPC860: activating IDMA0
+Apr 20 16:19:38.462 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261380, dst_bp=0x012b882a len=126
+Apr 20 16:19:38.462 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:19:38.462 MPC860: activating IDMA0
+Apr 20 16:19:38.462 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260d00, dst_bp=0x012b8b6a len=126
+Apr 20 16:19:38.462 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:19:47.066 MPC860: activating IDMA0
+Apr 20 16:19:47.066 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260680, dst_bp=0x012b8b62 len=310
+Apr 20 16:19:47.066 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:20:07.142 MPC860: activating IDMA0
+Apr 20 16:20:07.142 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260000, dst_bp=0x012b8b6a len=126
+Apr 20 16:20:07.142 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:20:07.142 MPC860: activating IDMA0
+Apr 20 16:20:07.142 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f980, dst_bp=0x012b882a len=126
+Apr 20 16:20:07.142 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:20:33.767 MPC860: activating IDMA0
+Apr 20 16:20:33.767 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f300, dst_bp=0x012b882a len=126
+Apr 20 16:20:33.767 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:20:33.771 MPC860: activating IDMA0
+Apr 20 16:20:33.772 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ec80, dst_bp=0x012b882a len=126
+Apr 20 16:20:33.772 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:20:47.085 MPC860: activating IDMA0
+Apr 20 16:20:47.085 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125e600, dst_bp=0x012b8822 len=310
+Apr 20 16:20:47.085 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:21:01.684 MPC860: activating IDMA0
+Apr 20 16:21:01.684 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125df80, dst_bp=0x012b882a len=126
+Apr 20 16:21:01.685 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:21:01.685 MPC860: activating IDMA0
+Apr 20 16:21:01.685 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d900, dst_bp=0x012b8b6a len=126
+Apr 20 16:21:01.685 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:21:28.067 MPC860: activating IDMA0
+Apr 20 16:21:28.067 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d280, dst_bp=0x012b8b6a len=126
+Apr 20 16:21:28.067 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:21:28.081 MPC860: activating IDMA0
+Apr 20 16:21:28.081 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125cc00, dst_bp=0x012b8b6a len=126
+Apr 20 16:21:28.081 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:21:47.081 MPC860: activating IDMA0
+Apr 20 16:21:47.081 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125c580, dst_bp=0x012b8b62 len=310
+Apr 20 16:21:47.081 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:21:55.085 MPC860: activating IDMA0
+Apr 20 16:21:55.085 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125bf00, dst_bp=0x012b8b6a len=126
+Apr 20 16:21:55.085 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:21:55.085 MPC860: activating IDMA0
+Apr 20 16:21:55.085 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b880, dst_bp=0x012b882a len=126
+Apr 20 16:21:55.085 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:22:22.444 MPC860: activating IDMA0
+Apr 20 16:22:22.444 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b200, dst_bp=0x012b882a len=126
+Apr 20 16:22:22.445 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:22:22.445 MPC860: activating IDMA0
+Apr 20 16:22:22.445 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ab80, dst_bp=0x012b8b6a len=126
+Apr 20 16:22:22.446 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:22:47.265 MPC860: activating IDMA0
+Apr 20 16:22:47.265 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125a500, dst_bp=0x012b8b62 len=310
+Apr 20 16:22:47.265 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:22:49.040 MPC860: activating IDMA0
+Apr 20 16:22:49.040 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259e80, dst_bp=0x012b8b6a len=126
+Apr 20 16:22:49.040 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:22:49.040 MPC860: activating IDMA0
+Apr 20 16:22:49.040 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259800, dst_bp=0x012b8b6a len=126
+Apr 20 16:22:49.040 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:23:17.914 MPC860: activating IDMA0
+Apr 20 16:23:17.914 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259180, dst_bp=0x012b8b6a len=126
+Apr 20 16:23:17.915 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:23:17.915 MPC860: activating IDMA0
+Apr 20 16:23:17.915 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258b00, dst_bp=0x012b882a len=126
+Apr 20 16:23:17.915 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:23:47.100 MPC860: activating IDMA0
+Apr 20 16:23:47.100 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258480, dst_bp=0x012b882a len=126
+Apr 20 16:23:47.100 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:23:47.100 MPC860: activating IDMA0
+Apr 20 16:23:47.100 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257e00, dst_bp=0x012b882a len=126
+Apr 20 16:23:47.100 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:23:47.100 MPC860: activating IDMA0
+Apr 20 16:23:47.100 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257780, dst_bp=0x012b8822 len=310
+Apr 20 16:23:47.100 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:24:13.226 MPC860: activating IDMA0
+Apr 20 16:24:13.226 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257100, dst_bp=0x012b882a len=126
+Apr 20 16:24:13.226 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:24:13.229 MPC860: activating IDMA0
+Apr 20 16:24:13.229 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256a80, dst_bp=0x012b882a len=126
+Apr 20 16:24:13.229 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:36:06.996 MPC860: activating IDMA0
+Apr 20 16:36:06.996 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256400, dst_bp=0x012b882a len=126
+Apr 20 16:36:06.996 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:36:07.001 MPC860: activating IDMA0
+Apr 20 16:36:07.001 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255d80, dst_bp=0x012b882a len=126
+Apr 20 16:36:07.001 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:36:11.477 MPC860: activating IDMA0
+Apr 20 16:36:11.477 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255700, dst_bp=0x012b8822 len=310
+Apr 20 16:36:11.477 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:36:29.962 MPC860: activating IDMA0
+Apr 20 16:36:29.962 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255080, dst_bp=0x012b882a len=126
+Apr 20 16:36:29.962 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:36:29.962 MPC860: activating IDMA0
+Apr 20 16:36:29.962 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254a00, dst_bp=0x012b8b6a len=126
+Apr 20 16:36:29.962 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:36:56.433 MPC860: activating IDMA0
+Apr 20 16:36:56.433 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254380, dst_bp=0x012b8b6a len=126
+Apr 20 16:36:56.433 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:36:56.449 MPC860: activating IDMA0
+Apr 20 16:36:56.449 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253d00, dst_bp=0x012b8b6a len=126
+Apr 20 16:36:56.449 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:37:07.406 MPC860: activating IDMA0
+Apr 20 16:37:07.406 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253680, dst_bp=0x012b8b62 len=310
+Apr 20 16:37:07.406 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:37:22.914 MPC860: activating IDMA0
+Apr 20 16:37:22.914 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253000, dst_bp=0x012b8b6a len=126
+Apr 20 16:37:22.914 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:37:22.914 MPC860: activating IDMA0
+Apr 20 16:37:22.914 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252980, dst_bp=0x012b8b6a len=126
+Apr 20 16:37:22.914 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:37:49.862 MPC860: activating IDMA0
+Apr 20 16:37:49.862 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252300, dst_bp=0x012b8b6a len=126
+Apr 20 16:37:49.862 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:37:49.862 MPC860: activating IDMA0
+Apr 20 16:37:49.862 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251c80, dst_bp=0x012b8b6a len=126
+Apr 20 16:37:49.862 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:38:07.430 MPC860: activating IDMA0
+Apr 20 16:38:07.430 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251600, dst_bp=0x012b8b62 len=310
+Apr 20 16:38:07.430 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:38:18.108 MPC860: activating IDMA0
+Apr 20 16:38:18.108 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250f80, dst_bp=0x012b8b6a len=126
+Apr 20 16:38:18.108 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:38:18.139 MPC860: activating IDMA0
+Apr 20 16:38:18.139 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250900, dst_bp=0x012b8b6a len=126
+Apr 20 16:38:18.139 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:38:47.968 MPC860: activating IDMA0
+Apr 20 16:38:47.968 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250280, dst_bp=0x012b8b6a len=126
+Apr 20 16:38:47.968 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:38:47.968 MPC860: activating IDMA0
+Apr 20 16:38:47.968 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124fc00, dst_bp=0x012b8b6a len=126
+Apr 20 16:38:47.968 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:39:07.491 MPC860: activating IDMA0
+Apr 20 16:39:07.491 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124f580, dst_bp=0x012b8b62 len=310
+Apr 20 16:39:07.491 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:39:17.919 MPC860: activating IDMA0
+Apr 20 16:39:17.919 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ef00, dst_bp=0x012b8b6a len=126
+Apr 20 16:39:17.919 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:39:17.919 MPC860: activating IDMA0
+Apr 20 16:39:17.919 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e880, dst_bp=0x012b882a len=126
+Apr 20 16:39:17.919 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:39:44.165 MPC860: activating IDMA0
+Apr 20 16:39:44.165 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e200, dst_bp=0x012b882a len=126
+Apr 20 16:39:44.165 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:39:44.165 MPC860: activating IDMA0
+Apr 20 16:39:44.165 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124db80, dst_bp=0x012b882a len=126
+Apr 20 16:39:44.165 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:40:07.421 MPC860: activating IDMA0
+Apr 20 16:40:07.421 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124d500, dst_bp=0x012b8822 len=310
+Apr 20 16:40:07.421 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:40:12.527 MPC860: activating IDMA0
+Apr 20 16:40:12.527 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ce80, dst_bp=0x012b882a len=126
+Apr 20 16:40:12.527 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:40:12.527 MPC860: activating IDMA0
+Apr 20 16:40:12.527 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c800, dst_bp=0x012b882a len=126
+Apr 20 16:40:12.527 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:40:41.615 MPC860: activating IDMA0
+Apr 20 16:40:41.615 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c180, dst_bp=0x012b882a len=126
+Apr 20 16:40:41.615 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:40:41.633 MPC860: activating IDMA0
+Apr 20 16:40:41.633 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124bb00, dst_bp=0x012b882a len=126
+Apr 20 16:40:41.633 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:41:07.402 MPC860: activating IDMA0
+Apr 20 16:41:07.402 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264780, dst_bp=0x012b8822 len=310
+Apr 20 16:41:07.402 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:41:09.589 MPC860: activating IDMA0
+Apr 20 16:41:09.589 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264100, dst_bp=0x012b882a len=126
+Apr 20 16:41:09.589 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:41:09.589 MPC860: activating IDMA0
+Apr 20 16:41:09.589 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265480, dst_bp=0x012b882a len=126
+Apr 20 16:41:09.589 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:41:38.034 MPC860: activating IDMA0
+Apr 20 16:41:38.034 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264e00, dst_bp=0x012b882a len=126
+Apr 20 16:41:38.034 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:41:38.034 MPC860: activating IDMA0
+Apr 20 16:41:38.034 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124b480, dst_bp=0x012b882a len=126
+Apr 20 16:41:38.034 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:42:06.199 MPC860: activating IDMA0
+Apr 20 16:42:06.199 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263a80, dst_bp=0x012b882a len=126
+Apr 20 16:42:06.199 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:42:06.199 MPC860: activating IDMA0
+Apr 20 16:42:06.199 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x012b882a len=126
+Apr 20 16:42:06.199 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:42:07.417 MPC860: activating IDMA0
+Apr 20 16:42:07.417 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262d80, dst_bp=0x012b8822 len=310
+Apr 20 16:42:07.417 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:42:32.356 MPC860: activating IDMA0
+Apr 20 16:42:32.357 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262700, dst_bp=0x012b882a len=126
+Apr 20 16:42:32.357 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:42:32.359 MPC860: activating IDMA0
+Apr 20 16:42:32.359 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263400, dst_bp=0x012b882a len=126
+Apr 20 16:42:32.360 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:42:58.305 MPC860: activating IDMA0
+Apr 20 16:42:58.305 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261a00, dst_bp=0x012b882a len=126
+Apr 20 16:42:58.305 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:42:58.305 MPC860: activating IDMA0
+Apr 20 16:42:58.305 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262080, dst_bp=0x012b882a len=126
+Apr 20 16:42:58.305 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:43:07.497 MPC860: activating IDMA0
+Apr 20 16:43:07.497 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260d00, dst_bp=0x012b8822 len=310
+Apr 20 16:43:07.497 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:43:25.506 MPC860: activating IDMA0
+Apr 20 16:43:25.506 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260680, dst_bp=0x012b882a len=126
+Apr 20 16:43:25.506 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:43:25.506 MPC860: activating IDMA0
+Apr 20 16:43:25.506 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261380, dst_bp=0x012b8b6a len=126
+Apr 20 16:43:25.506 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:43:53.766 MPC860: activating IDMA0
+Apr 20 16:43:53.766 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f980, dst_bp=0x012b8b6a len=126
+Apr 20 16:43:53.766 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:43:53.781 MPC860: activating IDMA0
+Apr 20 16:43:53.781 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f300, dst_bp=0x012b8b6a len=126
+Apr 20 16:43:53.781 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:44:07.449 MPC860: activating IDMA0
+Apr 20 16:44:07.449 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ec80, dst_bp=0x012b8b62 len=310
+Apr 20 16:44:07.449 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:44:20.313 MPC860: activating IDMA0
+Apr 20 16:44:20.313 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125e600, dst_bp=0x012b8b6a len=126
+Apr 20 16:44:20.313 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:44:20.329 MPC860: activating IDMA0
+Apr 20 16:44:20.330 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260000, dst_bp=0x012b8b6a len=126
+Apr 20 16:44:20.330 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:44:49.301 MPC860: activating IDMA0
+Apr 20 16:44:49.301 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d900, dst_bp=0x012b8b6a len=126
+Apr 20 16:44:49.301 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:44:49.317 MPC860: activating IDMA0
+Apr 20 16:44:49.317 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d280, dst_bp=0x012b8b6a len=126
+Apr 20 16:44:49.317 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:45:07.446 MPC860: activating IDMA0
+Apr 20 16:45:07.446 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125cc00, dst_bp=0x012b8b62 len=310
+Apr 20 16:45:07.446 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:45:17.776 MPC860: activating IDMA0
+Apr 20 16:45:17.776 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125c580, dst_bp=0x012b8b6a len=126
+Apr 20 16:45:17.776 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:45:17.776 MPC860: activating IDMA0
+Apr 20 16:45:17.776 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125df80, dst_bp=0x012b8b6a len=126
+Apr 20 16:45:17.776 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:45:44.310 MPC860: activating IDMA0
+Apr 20 16:45:44.310 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b880, dst_bp=0x012b8b6a len=126
+Apr 20 16:45:44.310 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:45:44.310 MPC860: activating IDMA0
+Apr 20 16:45:44.310 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125bf00, dst_bp=0x012b8b6a len=126
+Apr 20 16:45:44.310 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:46:07.467 MPC860: activating IDMA0
+Apr 20 16:46:07.467 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ab80, dst_bp=0x012b8b62 len=310
+Apr 20 16:46:07.467 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:46:10.171 MPC860: activating IDMA0
+Apr 20 16:46:10.172 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125a500, dst_bp=0x012b8b6a len=126
+Apr 20 16:46:10.172 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 16:46:10.173 MPC860: activating IDMA0
+Apr 20 16:46:10.173 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259e80, dst_bp=0x012b8b6a len=126
+Apr 20 16:46:10.173 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:02:46.078 MPC860: activating IDMA0
+Apr 20 17:02:46.078 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259800, dst_bp=0x012b8b6a len=126
+Apr 20 17:02:46.078 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:02:46.078 MPC860: activating IDMA0
+Apr 20 17:02:46.078 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125b200, dst_bp=0x012b8b6a len=126
+Apr 20 17:02:46.078 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:03:06.028 MPC860: activating IDMA0
+Apr 20 17:03:06.028 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258b00, dst_bp=0x012b8b6a len=126
+Apr 20 17:03:06.028 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:03:06.028 MPC860: activating IDMA0
+Apr 20 17:03:06.028 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01258480, dst_bp=0x012b8b6a len=126
+Apr 20 17:03:06.028 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:03:07.844 MPC860: activating IDMA0
+Apr 20 17:03:07.844 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257e00, dst_bp=0x012b8b62 len=310
+Apr 20 17:03:07.844 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:03:33.601 MPC860: activating IDMA0
+Apr 20 17:03:33.602 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257780, dst_bp=0x012b8b6a len=126
+Apr 20 17:03:33.602 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:03:33.604 MPC860: activating IDMA0
+Apr 20 17:03:33.604 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01257100, dst_bp=0x012b8b6a len=126
+Apr 20 17:03:33.604 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:04:02.290 MPC860: activating IDMA0
+Apr 20 17:04:02.290 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256a80, dst_bp=0x012b8b6a len=126
+Apr 20 17:04:02.290 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:04:02.290 MPC860: activating IDMA0
+Apr 20 17:04:02.290 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01256400, dst_bp=0x012b8b6a len=126
+Apr 20 17:04:02.305 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:04:07.850 MPC860: activating IDMA0
+Apr 20 17:04:07.850 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255d80, dst_bp=0x012b8b62 len=310
+Apr 20 17:04:07.850 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:04:29.778 MPC860: activating IDMA0
+Apr 20 17:04:29.794 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255700, dst_bp=0x012b8b6a len=126
+Apr 20 17:04:29.794 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:04:29.795 MPC860: activating IDMA0
+Apr 20 17:04:29.795 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01259180, dst_bp=0x012b8b6a len=126
+Apr 20 17:04:29.796 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:04:57.548 MPC860: activating IDMA0
+Apr 20 17:04:57.548 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254a00, dst_bp=0x012b8b6a len=126
+Apr 20 17:04:57.548 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:04:57.548 MPC860: activating IDMA0
+Apr 20 17:04:57.548 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01254380, dst_bp=0x012b8b6a len=126
+Apr 20 17:04:57.548 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:05:07.846 MPC860: activating IDMA0
+Apr 20 17:05:07.846 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253d00, dst_bp=0x012b8b62 len=310
+Apr 20 17:05:07.846 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:05:25.191 MPC860: activating IDMA0
+Apr 20 17:05:25.191 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253680, dst_bp=0x012b8b6a len=126
+Apr 20 17:05:25.191 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:05:25.191 MPC860: activating IDMA0
+Apr 20 17:05:25.191 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01253000, dst_bp=0x012b8b6a len=126
+Apr 20 17:05:25.191 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:05:50.738 MPC860: activating IDMA0
+Apr 20 17:05:50.738 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252980, dst_bp=0x012b8b6a len=126
+Apr 20 17:05:50.738 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:05:50.754 MPC860: activating IDMA0
+Apr 20 17:05:50.754 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01252300, dst_bp=0x012b8b6a len=126
+Apr 20 17:05:50.754 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:06:07.861 MPC860: activating IDMA0
+Apr 20 17:06:07.861 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251c80, dst_bp=0x012b8b62 len=310
+Apr 20 17:06:07.861 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:06:19.894 MPC860: activating IDMA0
+Apr 20 17:06:19.894 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01251600, dst_bp=0x012b8b6a len=126
+Apr 20 17:06:19.894 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:06:19.894 MPC860: activating IDMA0
+Apr 20 17:06:19.894 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250f80, dst_bp=0x012b882a len=126
+Apr 20 17:06:19.894 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:06:46.239 MPC860: activating IDMA0
+Apr 20 17:06:46.239 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250900, dst_bp=0x012b882a len=126
+Apr 20 17:06:46.239 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:06:46.239 MPC860: activating IDMA0
+Apr 20 17:06:46.239 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01250280, dst_bp=0x012b882a len=126
+Apr 20 17:06:46.239 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:07:07.863 MPC860: activating IDMA0
+Apr 20 17:07:07.863 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124fc00, dst_bp=0x012b8822 len=310
+Apr 20 17:07:07.863 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:07:12.700 MPC860: activating IDMA0
+Apr 20 17:07:12.700 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124f580, dst_bp=0x012b882a len=126
+Apr 20 17:07:12.700 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:07:12.700 MPC860: activating IDMA0
+Apr 20 17:07:12.700 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01255080, dst_bp=0x012b8b6a len=126
+Apr 20 17:07:12.700 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:07:41.329 MPC860: activating IDMA0
+Apr 20 17:07:41.329 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e880, dst_bp=0x012b8b6a len=126
+Apr 20 17:07:41.329 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:07:41.329 MPC860: activating IDMA0
+Apr 20 17:07:41.329 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124e200, dst_bp=0x012b8b6a len=126
+Apr 20 17:07:41.329 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:08:07.428 MPC860: activating IDMA0
+Apr 20 17:08:07.428 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124db80, dst_bp=0x012b8b6a len=126
+Apr 20 17:08:07.428 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:08:07.428 MPC860: activating IDMA0
+Apr 20 17:08:07.428 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124d500, dst_bp=0x012b8b6a len=126
+Apr 20 17:08:07.428 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:08:08.036 MPC860: activating IDMA0
+Apr 20 17:08:08.036 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ce80, dst_bp=0x012b8b62 len=310
+Apr 20 17:08:08.036 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:08:36.337 MPC860: activating IDMA0
+Apr 20 17:08:36.337 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c800, dst_bp=0x012b8b6a len=126
+Apr 20 17:08:36.337 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:08:36.337 MPC860: activating IDMA0
+Apr 20 17:08:36.337 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124c180, dst_bp=0x012b8b6a len=126
+Apr 20 17:08:36.337 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:09:03.428 MPC860: activating IDMA0
+Apr 20 17:09:03.428 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124bb00, dst_bp=0x012b8b6a len=126
+Apr 20 17:09:03.428 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:09:03.428 MPC860: activating IDMA0
+Apr 20 17:09:03.428 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264780, dst_bp=0x012b8b6a len=126
+Apr 20 17:09:03.428 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:09:07.898 MPC860: activating IDMA0
+Apr 20 17:09:07.899 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264100, dst_bp=0x012b8b62 len=310
+Apr 20 17:09:07.899 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:09:32.923 MPC860: activating IDMA0
+Apr 20 17:09:32.923 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265480, dst_bp=0x012b8b6a len=126
+Apr 20 17:09:32.923 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:09:32.938 MPC860: activating IDMA0
+Apr 20 17:09:32.938 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01264e00, dst_bp=0x012b8b6a len=126
+Apr 20 17:09:32.938 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:10:02.644 MPC860: activating IDMA0
+Apr 20 17:10:02.644 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124b480, dst_bp=0x012b8b6a len=126
+Apr 20 17:10:02.644 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:10:02.644 MPC860: activating IDMA0
+Apr 20 17:10:02.644 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263a80, dst_bp=0x012b882a len=126
+Apr 20 17:10:02.644 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:10:07.907 MPC860: activating IDMA0
+Apr 20 17:10:07.907 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01265b00, dst_bp=0x012b8822 len=310
+Apr 20 17:10:07.922 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:10:29.946 MPC860: activating IDMA0
+Apr 20 17:10:29.946 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262d80, dst_bp=0x012b882a len=126
+Apr 20 17:10:29.946 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:10:29.946 MPC860: activating IDMA0
+Apr 20 17:10:29.946 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262700, dst_bp=0x012b882a len=126
+Apr 20 17:10:29.946 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:10:58.246 MPC860: activating IDMA0
+Apr 20 17:10:58.246 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01263400, dst_bp=0x012b882a len=126
+Apr 20 17:10:58.246 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:10:58.262 MPC860: activating IDMA0
+Apr 20 17:10:58.262 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261a00, dst_bp=0x012b882a len=126
+Apr 20 17:10:58.262 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:11:07.923 MPC860: activating IDMA0
+Apr 20 17:11:07.923 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01262080, dst_bp=0x012b8822 len=310
+Apr 20 17:11:07.923 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:11:24.480 MPC860: activating IDMA0
+Apr 20 17:11:24.480 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260d00, dst_bp=0x012b882a len=126
+Apr 20 17:11:24.480 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:11:24.495 MPC860: activating IDMA0
+Apr 20 17:11:24.495 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0124ef00, dst_bp=0x012b882a len=126
+Apr 20 17:11:24.495 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:11:51.339 MPC860: activating IDMA0
+Apr 20 17:11:51.339 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01261380, dst_bp=0x012b882a len=126
+Apr 20 17:11:51.339 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:11:51.339 MPC860: activating IDMA0
+Apr 20 17:11:51.339 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f980, dst_bp=0x012b8b6a len=126
+Apr 20 17:11:51.339 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:12:07.947 MPC860: activating IDMA0
+Apr 20 17:12:07.947 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125f300, dst_bp=0x012b8b62 len=310
+Apr 20 17:12:07.947 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:12:21.284 MPC860: activating IDMA0
+Apr 20 17:12:21.284 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125ec80, dst_bp=0x012b8b6a len=126
+Apr 20 17:12:21.284 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:12:21.284 MPC860: activating IDMA0
+Apr 20 17:12:21.284 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125e600, dst_bp=0x012b8b6a len=126
+Apr 20 17:12:21.284 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:12:50.147 MPC860: activating IDMA0
+Apr 20 17:12:50.147 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x01260000, dst_bp=0x012b8b6a len=126
+Apr 20 17:12:50.147 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 17:12:50.147 MPC860: activating IDMA0
+Apr 20 17:12:50.147 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d900, dst_bp=0x012b8b6a len=126
+Apr 20 17:12:50.147 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 18:31:01.324 MPC860: activating IDMA0
+Apr 20 18:31:01.324 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125d280, dst_bp=0x012b8b62 len=310
+Apr 20 18:31:01.324 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 18:31:10.829 MPC860: activating IDMA0
+Apr 20 18:31:10.829 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125cc00, dst_bp=0x012b8b6a len=126
+Apr 20 18:31:10.829 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
+Apr 20 18:31:10.829 MPC860: activating IDMA0
+Apr 20 18:31:10.829 MPC860: fetched IDMA BD at 0x0c40, src_bp=0x0125c580, dst_bp=0x012b882a len=126
+Apr 20 18:31:10.829 CPU0: MPC860: write to addr 0x94c, value=0x200000, pc=0x8037da8c (size=4)
